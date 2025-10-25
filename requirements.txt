@@ -1,0 +1,26 @@
+# === Core ===
+python-dotenv
+tqdm
+requests
+argparse
+
+# === LLM / Agent ===
+openai
+anthropic
+google-generativeai
+
+# === Static & Dynamic Analysis Helpers ===
+tree_sitter
+pycparser
+clang
+fuzzywuzzy[speedup]
+
+# === Validation / Execution ===
+subprocess-run
+pexpect
+
+# === Data & Logging ===
+pandas
+numpy
+pyyaml
+matplotlib
