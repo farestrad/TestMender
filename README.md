@@ -10,8 +10,17 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
 ### 3. Install system dependencies
+
+**macOS (requires Homebrew):**
+If you don't already have Homebrew, install it first:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+### 4. Install system dependencies
 
 **macOS (Homebrew):**
 ```bash
@@ -29,7 +38,7 @@ sudo apt install cmake make gcc g++ build-essential
 sudo yum install cmake make gcc gcc-c++
 ```
 
-### 4. Setup Juliet Test Suite
+### 5. Setup Juliet Test Suite
 ```bash
 # Clone the Juliet dataset (git-ignored)
 scripts/setup_juliet.sh
@@ -39,7 +48,7 @@ cd data/juliet
 python3 juliet.py -a -g -m -k
 ```
 
-### 5. Verify setup
+### 6. Verify setup
 ```bash
 # Run automated verification (from project root directory)
 scripts/verify_setup.sh
