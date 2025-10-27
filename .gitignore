@@ -1,7 +1,18 @@
+# Python cache / venv
 __pycache__/
 *.pyc
 .venv/
 .env
-data/juliet/
 .DS_Store
-data/juliet/
+
+# Juliet dataset build outputs (keep source files)
+data/juliet/bin/
+data/juliet/build/
+data/juliet/**/CMakeFiles/
+data/juliet/**/CMakeCache.txt
+data/juliet/**/cmake_install.cmake
+
+# Object and binary files
+*.o
+*-bad
+*-good
