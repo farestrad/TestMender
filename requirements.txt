@@ -25,9 +25,5 @@ numpy
 pyyaml
 matplotlib
 
-# === Juliet Test Suite Dependencies ===
-# Required for building C/C++ test cases
-cmake>=3.6
-make
-gcc
-g++
+# === Juliet Test Suite Python Scripts ===
+cmake>=3.6  # this one is fine, Python binding
