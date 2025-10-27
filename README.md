@@ -41,9 +41,11 @@ python3 juliet.py -a -g -m -k
 
 ### 5. Verify setup
 ```bash
-# Run automated verification
+# Run automated verification (from project root directory)
 scripts/verify_setup.sh
 ```
+
+**Important:** Always run the verification script from the project root directory, not from inside the `scripts/` folder.
 
 **Manual verification** (if needed):
 ```bash
@@ -100,4 +102,10 @@ gcc --version
 ```bash
 # Make scripts executable
 chmod +x scripts/*.sh
-``` 
+```
+
+### Verification Script Issues
+If you get "Juliet dataset not found" when running `scripts/verify_setup.sh`:
+- Make sure you're running it from the **project root directory**
+- Don't run it from inside the `scripts/` folder
+- The script needs to find `data/juliet/` relative to where you run it 
