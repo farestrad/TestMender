@@ -6,6 +6,7 @@ __pycache__/
 .DS_Store
 
 # Juliet dataset build outputs (keep source files)
+build/
 data/juliet/bin/
 data/juliet/build/
 data/juliet/**/CMakeFiles/
