@@ -16,3 +16,5 @@ data/juliet/**/cmake_install.cmake
 *.o
 *-bad
 *-good
+
+.idea/
