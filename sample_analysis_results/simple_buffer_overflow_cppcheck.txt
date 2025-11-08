@@ -1,0 +1,15 @@
+Checking simple_buffer_overflow.c ...
+simple_buffer_overflow.c:22:12: error: Buffer is accessed out of bounds: buffer [bufferAccessOutOfBounds]
+    strcpy(buffer, "This string is way too long for the buffer");
+           ^
+simple_buffer_overflow.c:17:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(buffer);  // DANGEROUS: No bounds checking
+    ^
+simple_buffer_overflow.c:13:10: style: Unused variable: input [unusedVariable]
+    char input[100];
+         ^
+simple_buffer_overflow.c:11:6: style: The function 'vulnerable_function' is never used. [unusedFunction]
+void vulnerable_function() {
+     ^
+nofile:0:0: information: Active checkers: 110/966 (use --checkers-report=<filename> to see details) [checkersReport]
+

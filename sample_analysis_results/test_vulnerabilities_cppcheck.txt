@@ -1,0 +1,147 @@
+Checking test_vulnerabilities.c ...
+test_vulnerabilities.c:32:22: error: Array 'array[5]' accessed at index 10, which is out of bounds. [arrayIndexOutOfBounds]
+    int value = array[index];  // UNSAFE: reading beyond array bounds
+                     ^
+test_vulnerabilities.c:31:17: note: Assignment 'index=10', assigned value is 10
+    int index = 10;
+                ^
+test_vulnerabilities.c:32:22: note: Array index out of bounds
+    int value = array[index];  // UNSAFE: reading beyond array bounds
+                     ^
+test_vulnerabilities.c:40:10: error: Array 'array[5]' accessed at index 10, which is out of bounds. [arrayIndexOutOfBounds]
+    array[index] = 42;  // UNSAFE: writing beyond array bounds
+         ^
+test_vulnerabilities.c:39:17: note: Assignment 'index=10', assigned value is 10
+    int index = 10;
+                ^
+test_vulnerabilities.c:40:10: note: Array index out of bounds
+    array[index] = 42;  // UNSAFE: writing beyond array bounds
+         ^
+test_vulnerabilities.c:16:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(buffer);  // UNSAFE: gets() doesn't check buffer bounds
+    ^
+test_vulnerabilities.c:24:18: error: Invalid strcpy() argument nr 2. A nul-terminated string is required. [invalidFunctionArgStr]
+    strcpy(dest, src);  // UNSAFE: no bounds checking
+                 ^
+test_vulnerabilities.c:47:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s", buffer);  // UNSAFE: no width specifier
+    ^
+test_vulnerabilities.c:68:1: error: Memory leak: ptr [memleak]
+}
+^
+test_vulnerabilities.c:74:5: error: Memory pointed to by 'ptr' is freed twice. [doubleFree]
+    free(ptr);  // UNSAFE: double free
+    ^
+test_vulnerabilities.c:73:5: note: Memory pointed to by 'ptr' is freed twice.
+    free(ptr);
+    ^
+test_vulnerabilities.c:74:5: note: Memory pointed to by 'ptr' is freed twice.
+    free(ptr);  // UNSAFE: double free
+    ^
+test_vulnerabilities.c:82:20: error: Dereferencing 'ptr' after it is deallocated / released [deallocuse]
+    printf("%s\n", ptr);  // UNSAFE: use after free
+                   ^
+test_vulnerabilities.c:80:12: warning: If memory allocation fails, then there is a possible null pointer dereference: ptr [nullPointerOutOfMemory]
+    strcpy(ptr, "Hello");
+           ^
+test_vulnerabilities.c:79:30: note: Assuming allocation function fails
+    char *ptr = (char*)malloc(100);
+                             ^
+test_vulnerabilities.c:79:17: note: Assignment 'ptr=(char*)malloc(100)', assigned value is 0
+    char *ptr = (char*)malloc(100);
+                ^
+test_vulnerabilities.c:80:12: note: Null pointer dereference
+    strcpy(ptr, "Hello");
+           ^
+test_vulnerabilities.c:101:12: error: Null pointer dereference: ptr [nullPointer]
+    strcpy(ptr, "test");  // UNSAFE: dereferencing NULL
+           ^
+test_vulnerabilities.c:100:17: note: Assignment 'ptr=NULL', assigned value is 0
+    char *ptr = NULL;
+                ^
+test_vulnerabilities.c:101:12: note: Null pointer dereference
+    strcpy(ptr, "test");  // UNSAFE: dereferencing NULL
+           ^
+test_vulnerabilities.c:101:12: error: Null pointer dereference [nullPointer]
+    strcpy(ptr, "test");  // UNSAFE: dereferencing NULL
+           ^
+test_vulnerabilities.c:23:10: style: Variable 'src' can be declared as const array [constVariable]
+    char src[20] = "This is a very long string";
+         ^
+test_vulnerabilities.c:30:9: style: Variable 'array' can be declared as const array [constVariable]
+    int array[5] = {1, 2, 3, 4, 5};
+        ^
+test_vulnerabilities.c:52:31: style: Parameter 'user_input' can be declared as pointer to const [constParameterPointer]
+void test_format_string(char *user_input) {
+                              ^
+test_vulnerabilities.c:65:11: style: Variable 'ptr' can be declared as pointer to const [constVariablePointer]
+    char *ptr = (char*)malloc(100);
+          ^
+test_vulnerabilities.c:88:24: error: Signed integer overflow for expression 'max+1'. [integerOverflow]
+    int overflow = max + 1;  // UNSAFE: integer overflow
+                       ^
+test_vulnerabilities.c:87:15: note: Assignment 'max=2147483647', assigned value is 2147483647
+    int max = 2147483647;
+              ^
+test_vulnerabilities.c:88:24: note: Integer overflow
+    int overflow = max + 1;  // UNSAFE: integer overflow
+                       ^
+test_vulnerabilities.c:59:18: error: Uninitialized variable: x [uninitvar]
+    int result = x + 10;  // UNSAFE: x is not initialized
+                 ^
+test_vulnerabilities.c:40:18: style: Variable 'array[index]' is assigned a value that is never used. [unreadVariable]
+    array[index] = 42;  // UNSAFE: writing beyond array bounds
+                 ^
+test_vulnerabilities.c:65:15: style: Variable 'ptr' is assigned a value that is never used. [unreadVariable]
+    char *ptr = (char*)malloc(100);
+              ^
+test_vulnerabilities.c:65:31: style: Variable 'ptr' is allocated memory that is never used. [unusedAllocatedMemory]
+    char *ptr = (char*)malloc(100);
+                              ^
+test_vulnerabilities.c:72:31: style: Variable 'ptr' is allocated memory that is never used. [unusedAllocatedMemory]
+    char *ptr = (char*)malloc(100);
+                              ^
+test_vulnerabilities.c:13:6: style: The function 'test_buffer_overflow_gets' is never used. [unusedFunction]
+void test_buffer_overflow_gets() {
+     ^
+test_vulnerabilities.c:21:6: style: The function 'test_buffer_overflow_strcpy' is never used. [unusedFunction]
+void test_buffer_overflow_strcpy() {
+     ^
+test_vulnerabilities.c:29:6: style: The function 'test_out_of_bounds_read' is never used. [unusedFunction]
+void test_out_of_bounds_read() {
+     ^
+test_vulnerabilities.c:37:6: style: The function 'test_out_of_bounds_write' is never used. [unusedFunction]
+void test_out_of_bounds_write() {
+     ^
+test_vulnerabilities.c:45:6: style: The function 'test_dangerous_scanf' is never used. [unusedFunction]
+void test_dangerous_scanf() {
+     ^
+test_vulnerabilities.c:52:6: style: The function 'test_format_string' is never used. [unusedFunction]
+void test_format_string(char *user_input) {
+     ^
+test_vulnerabilities.c:57:6: style: The function 'test_uninitialized_variable' is never used. [unusedFunction]
+void test_uninitialized_variable() {
+     ^
+test_vulnerabilities.c:64:6: style: The function 'test_memory_leak' is never used. [unusedFunction]
+void test_memory_leak() {
+     ^
+test_vulnerabilities.c:71:6: style: The function 'test_double_free' is never used. [unusedFunction]
+void test_double_free() {
+     ^
+test_vulnerabilities.c:78:6: style: The function 'test_use_after_free' is never used. [unusedFunction]
+void test_use_after_free() {
+     ^
+test_vulnerabilities.c:86:6: style: The function 'test_integer_overflow' is never used. [unusedFunction]
+void test_integer_overflow() {
+     ^
+test_vulnerabilities.c:93:6: style: The function 'test_divide_by_zero' is never used. [unusedFunction]
+void test_divide_by_zero(int divisor) {
+     ^
+test_vulnerabilities.c:99:6: style: The function 'test_null_pointer' is never used. [unusedFunction]
+void test_null_pointer() {
+     ^
+test_vulnerabilities.c:105:6: style: The function 'test_dangerous_getwd' is never used. [unusedFunction]
+void test_dangerous_getwd() {
+     ^
+nofile:0:0: information: Active checkers: 110/966 (use --checkers-report=<filename> to see details) [checkersReport]
+

@@ -15,6 +15,11 @@ pycparser
 clang
 fuzzywuzzy[speedup]
 
+# === Static Analysis Tools ===
+semgrep>=1.45.0         # multi-language static analysis
+cppcheck                # C/C++ static analyzer (Python wrapper)
+flawfinder>=2.0.0       # C/C++ security-focused static analyzer
+
 # === Validation / Execution ===
 subprocess-run
 pexpect

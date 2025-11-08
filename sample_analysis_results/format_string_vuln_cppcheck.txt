@@ -1,0 +1,18 @@
+Checking format_string_vuln.c ...
+format_string_vuln.c:11:30: style: Parameter 'user_input' can be declared as pointer to const [constParameterPointer]
+void vulnerable_printf(char *user_input) {
+                             ^
+format_string_vuln.c:16:26: style: Parameter 'user_input' can be declared as pointer to const [constParameterPointer]
+void secure_printf(char *user_input) {
+                         ^
+format_string_vuln.c:22:10: style: Unused variable: buffer [unusedVariable]
+    char buffer[100];
+         ^
+format_string_vuln.c:11:6: style: The function 'vulnerable_printf' should have static linkage since it is not used outside of its translation unit. [staticFunction]
+void vulnerable_printf(char *user_input) {
+     ^
+format_string_vuln.c:16:6: style: The function 'secure_printf' should have static linkage since it is not used outside of its translation unit. [staticFunction]
+void secure_printf(char *user_input) {
+     ^
+nofile:0:0: information: Active checkers: 110/966 (use --checkers-report=<filename> to see details) [checkersReport]
+
