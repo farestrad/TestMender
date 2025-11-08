@@ -254,3 +254,5 @@ pip install --upgrade semgrep
 ```bash
 pip install --upgrade flawfinder
 ```
+### 3. Test samples for static analysis tools
+./scripts/test_samples.sh
