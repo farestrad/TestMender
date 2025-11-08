@@ -27,3 +27,9 @@ matplotlib
 
 # === Juliet Test Suite Python Scripts ===
 cmake>=3.6  # this one is fine, Python binding
+
+
+# Fuzzing Utilities (Python-side only)
+# ========================
+psutil              # monitor fuzzing processes (CPU, mem, runtime)
+tabulate            # pretty-print crash reports / summaries
