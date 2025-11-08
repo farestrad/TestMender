@@ -19,3 +19,4 @@ data/juliet/**/cmake_install.cmake
 *-good
 
 .idea/
+.vscode/
