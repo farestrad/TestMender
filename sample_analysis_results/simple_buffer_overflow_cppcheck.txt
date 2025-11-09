@@ -8,8 +8,8 @@ simple_buffer_overflow.c:17:5: warning: Obsolete function 'gets' called. It is r
 simple_buffer_overflow.c:13:10: style: Unused variable: input [unusedVariable]
     char input[100];
          ^
-simple_buffer_overflow.c:11:6: style: The function 'vulnerable_function' is never used. [unusedFunction]
+simple_buffer_overflow.c:11:0: style: The function 'vulnerable_function' is never used. [unusedFunction]
 void vulnerable_function() {
-     ^
-nofile:0:0: information: Active checkers: 110/966 (use --checkers-report=<filename> to see details) [checkersReport]
+^
+nofile:0:0: information: Active checkers: 109/856 (use --checkers-report=<filename> to see details) [checkersReport]
 

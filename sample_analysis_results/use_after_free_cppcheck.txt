@@ -53,23 +53,11 @@ use_after_free.c:18:18: note: Assignment 'user=(struct User*)malloc(sizeof(struc
 use_after_free.c:23:39: note: Null pointer dereference
     printf("User ID: %d, Name: %s\n", user->id, user->name);
                                       ^
-use_after_free.c:23:49: warning: If memory allocation fails, then there is a possible null pointer dereference: user [nullPointerOutOfMemory]
-    printf("User ID: %d, Name: %s\n", user->id, user->name);
-                                                ^
-use_after_free.c:18:31: note: Assuming allocation function fails
-    User *user = (User*)malloc(sizeof(User));
-                              ^
-use_after_free.c:18:18: note: Assignment 'user=(struct User*)malloc(sizeof(struct User))', assigned value is 0
-    User *user = (User*)malloc(sizeof(User));
-                 ^
-use_after_free.c:23:49: note: Null pointer dereference
-    printf("User ID: %d, Name: %s\n", user->id, user->name);
-                                                ^
-use_after_free.c:17:6: style: The function 'vulnerable_use_after_free' is never used. [unusedFunction]
+use_after_free.c:17:0: style: The function 'vulnerable_use_after_free' is never used. [unusedFunction]
 void vulnerable_use_after_free() {
-     ^
-use_after_free.c:36:6: style: The function 'correct_usage' should have static linkage since it is not used outside of its translation unit. [staticFunction]
+^
+use_after_free.c:36:0: style: The function 'correct_usage' should have static linkage since it is not used outside of its translation unit. [staticFunction]
 void correct_usage() {
-     ^
-nofile:0:0: information: Active checkers: 110/966 (use --checkers-report=<filename> to see details) [checkersReport]
+^
+nofile:0:0: information: Active checkers: 109/856 (use --checkers-report=<filename> to see details) [checkersReport]
 
