@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-09T17:05:42.822411",
+  "selected_paths": [
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__deref_after_check_08.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_17.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_51a.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__struct_07.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__wchar_t_52c.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_68b.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_54b.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_51b.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__struct_53c.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__deref_after_check_02.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_53d.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_10.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__long_31.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_15.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_52b.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_66b.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_54a.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_07.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__deref_after_check_01.c",
+    "data/juliet/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_54c.c"
+  ]
+}
