@@ -1,0 +1,3 @@
+[submodule "tools/semgrep-rules"]
+	path = tools/semgrep-rules
+	url = https://github.com/semgrep/semgrep-rules
