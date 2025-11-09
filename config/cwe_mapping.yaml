@@ -1,0 +1,24 @@
+CWE-120:
+  file: checkBufferOverflowVulnerabilities.ts
+  name: Stack-Based Buffer Overflow
+CWE-122:
+  file: checkHeapOverflowVulnerabilities.ts
+  name: Heap-Based Buffer Overflow
+CWE-190:
+  file: checkIntegerOverflowUnderflow.ts
+  name: Integer Overflow or Wraparound
+CWE-22:
+  file: checkPathTraversalVulnerabilities.ts
+  name: Path Traversal
+CWE-362:
+  file: checkRaceConditionVulnerabilities.ts
+  name: Race Condition
+CWE-327:
+  file: analyzeCodeForWeakHashingAndEncryption.ts
+  name: Use of a Broken or Risky Cryptographic Algorithm
+CWE-256:
+  file: analyzeCodeForPlaintextPasswords.ts
+  name: Plaintext Storage of a Password
+CWE-330:
+  file: checkRandomNumberGeneration.ts
+  name: Insufficiently Random Values
