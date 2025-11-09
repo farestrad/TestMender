@@ -7,16 +7,23 @@ Each CWE corresponds to a folder in the dataset and a category of vulnerabilitie
 
 ## ✅ Active CWEs
 
+## total is 8 CWE, for each pick 15 .c files then for each c file do 10 test case (8 * 15 * 10 = 1200) 
+
 | **Folder Name** | **CWE ID** | **Title** | **Category** | **Notes** |
 |-----------------|------------|------------|---------------|------------|
 | `CWE121_...` | **CWE-121** | Stack-Based Buffer Overflow | Memory Safety | Classic stack overflow cases. |
 | `CWE122_...` | **CWE-122** | Heap-Based Buffer Overflow | Memory Safety | Heap overflow, complements CWE-121. |
 | `CWE190_...` | **CWE-190** | Integer Overflow or Wraparound | Arithmetic Errors | Covers signed/unsigned overflow. |
 | `CWE364_...` | **CWE-364** | Signal Handler Race Condition | Concurrency | Race condition within signal handlers. |
+(result 600 test cases)
+
+
+
 | `CWE476_...` | **CWE-476** | NULL Pointer Dereference | Memory Safety | Common dereference vulnerability. |
 | `CWE835_...` | **CWE-835** | Infinite Loop / Uncontrolled Resource Consumption | Control Flow | Infinite loop and CPU/memory exhaustion. |
 | `CWE23_...` | **CWE-23** | Relative Path Traversal | Input Validation | Unvalidated relative path sequences (`../`). |
 | `CWE36_...` | **CWE-36** | Absolute Path Traversal | Input Validation | Full path misuse (e.g., `/etc/passwd`). |
+(result 600 test cases)
 
 ---
 
