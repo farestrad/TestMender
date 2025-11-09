@@ -285,13 +285,60 @@ Create a file named .env in the project root and add your key:
 GEMINI_API_KEY=your_api_key_here
 
 
-### 4. Test the Gemini integration
+## 🔑 LLM API Setup (Gemini or GPT)
 
-run the following from root : scripts/test_gemini.py:
+TestMender supports **two providers** for automatic test case generation:
+- **Google Gemini 2.5 Flash**
+- **OpenAI GPT-4o-mini**
 
-Expected output:
+You can freely switch between them using the `--provider` flag.
 
-print("Hello, world!")
+---
+
+### 🧩 1. Create and activate a Python virtual environment
+
+Use Python 3.11 for compatibility:
 
 
-✅ If you see the above, your Gemini setup is complete.
+/Library/Frameworks/Python.framework/Versions/3.11/bin/python3 -m venv .venv
+source .venv/bin/activate
+python -V  # should show Python 3.11.x
+⚙️ 2. Install dependencies
+bash
+Copy code
+python -m pip install -U pip
+python -m pip install python-dotenv google-generativeai openai
+🔐 3. Add your API keys
+Create a .env file in the project root and include one or both of the following:
+
+
+# For Gemini
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# For OpenAI
+OPENAI_API_KEY=your_openai_api_key_here
+Only the key matching your chosen provider will be used.
+
+🧠 4. Generate test cases
+Run from the project root:
+
+
+# Using Gemini 2.5 Flash
+python scripts/generate_test_cases_llm.py --cwe 121 --provider gemini --model gemini-2.5-flash
+
+# Using GPT-4o-mini
+python scripts/generate_test_cases_llm.py --cwe 121 --provider openai --model gpt-4o-mini
+✅ This will:
+
+Randomly select up to 20 Juliet .c files for the given CWE
+
+Ask the LLM to generate 5 test cases per file
+
+Save results to generated_test_cases/CWE<id>/
+
+🧪 5. Run a generated harness (compile + execute)
+Example for CWE-121:
+
+
+./scripts/run_harness.sh 121 CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_09_harness.c
+This compiles with AddressSanitizer, automatically links the correct Juliet sources, and runs the binary.
