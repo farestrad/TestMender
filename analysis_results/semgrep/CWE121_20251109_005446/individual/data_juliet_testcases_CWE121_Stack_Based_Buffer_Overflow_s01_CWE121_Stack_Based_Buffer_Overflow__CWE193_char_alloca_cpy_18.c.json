@@ -1,0 +1,88 @@
+{
+  "version": "1.141.0",
+  "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_cpy_18.c",
+  "results": [
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-string-copy-fn",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_cpy_18.c",
+      "start": {
+        "line": 42,
+        "col": 9,
+        "offset": 1386
+      },
+      "end": {
+        "line": 42,
+        "col": 29,
+        "offset": 1406
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcpy or strncpy used. This is an issue because strcpy does not affirm the size of the destination array and strncpy will not automatically NULL-terminate strings. This can lead to buffer overflows, which can cause program crashes and potentially let an attacker inject code in the program. Fix this by using strcpy_s instead (although note that strcpy_s is an optional part of the C11 standard, and so may not be available).",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/676",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-11365"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-string-copy-fn",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_cpy_18.c",
+      "start": {
+        "line": 66,
+        "col": 9,
+        "offset": 2119
+      },
+      "end": {
+        "line": 66,
+        "col": 29,
+        "offset": 2139
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcpy or strncpy used. This is an issue because strcpy does not affirm the size of the destination array and strncpy will not automatically NULL-terminate strings. This can lead to buffer overflows, which can cause program crashes and potentially let an attacker inject code in the program. Fix this by using strcpy_s instead (although note that strcpy_s is an optional part of the C11 standard, and so may not be available).",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/676",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-11365"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ]
+}

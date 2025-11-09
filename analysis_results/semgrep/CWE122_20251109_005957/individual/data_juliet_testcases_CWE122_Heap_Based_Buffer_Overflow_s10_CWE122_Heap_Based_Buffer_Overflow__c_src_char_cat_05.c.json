@@ -1,0 +1,264 @@
+{
+  "version": "1.141.0",
+  "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_05.c",
+  "results": [
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_05.c",
+      "start": {
+        "line": 38,
+        "col": 9,
+        "offset": 1202
+      },
+      "end": {
+        "line": 38,
+        "col": 33,
+        "offset": 1226
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(data, 'A', 100-1)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-strcat-fn",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_05.c",
+      "start": {
+        "line": 44,
+        "col": 9,
+        "offset": 1455
+      },
+      "end": {
+        "line": 44,
+        "col": 27,
+        "offset": 1473
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcat or strncat used. This is an issue because strcat or strncat can lead to buffer overflow vulns. Fix this by using strcat_s instead.",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-12553",
+            "https://techblog.mediaservice.net/2020/04/cve-2020-2851-stack-based-buffer-overflow-in-cde-libdtsvc/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_05.c",
+      "start": {
+        "line": 68,
+        "col": 9,
+        "offset": 2091
+      },
+      "end": {
+        "line": 68,
+        "col": 32,
+        "offset": 2114
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(data, 'A', 50-1)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-strcat-fn",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_05.c",
+      "start": {
+        "line": 74,
+        "col": 9,
+        "offset": 2342
+      },
+      "end": {
+        "line": 74,
+        "col": 27,
+        "offset": 2360
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcat or strncat used. This is an issue because strcat or strncat can lead to buffer overflow vulns. Fix this by using strcat_s instead.",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-12553",
+            "https://techblog.mediaservice.net/2020/04/cve-2020-2851-stack-based-buffer-overflow-in-cde-libdtsvc/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_05.c",
+      "start": {
+        "line": 89,
+        "col": 9,
+        "offset": 2791
+      },
+      "end": {
+        "line": 89,
+        "col": 32,
+        "offset": 2814
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(data, 'A', 50-1)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-strcat-fn",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_05.c",
+      "start": {
+        "line": 95,
+        "col": 9,
+        "offset": 3042
+      },
+      "end": {
+        "line": 95,
+        "col": 27,
+        "offset": 3060
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcat or strncat used. This is an issue because strcat or strncat can lead to buffer overflow vulns. Fix this by using strcat_s instead.",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-12553",
+            "https://techblog.mediaservice.net/2020/04/cve-2020-2851-stack-based-buffer-overflow-in-cde-libdtsvc/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ]
+}

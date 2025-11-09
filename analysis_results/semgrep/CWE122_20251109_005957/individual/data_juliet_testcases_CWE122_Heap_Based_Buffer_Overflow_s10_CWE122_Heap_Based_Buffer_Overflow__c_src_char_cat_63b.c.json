@@ -1,0 +1,88 @@
+{
+  "version": "1.141.0",
+  "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_63b.c",
+  "results": [
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-strcat-fn",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_63b.c",
+      "start": {
+        "line": 29,
+        "col": 9,
+        "offset": 908
+      },
+      "end": {
+        "line": 29,
+        "col": 27,
+        "offset": 926
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcat or strncat used. This is an issue because strcat or strncat can lead to buffer overflow vulns. Fix this by using strcat_s instead.",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-12553",
+            "https://techblog.mediaservice.net/2020/04/cve-2020-2851-stack-based-buffer-overflow-in-cde-libdtsvc/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-strcat-fn",
+      "path": "data/juliet/testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_63b.c",
+      "start": {
+        "line": 46,
+        "col": 9,
+        "offset": 1354
+      },
+      "end": {
+        "line": 46,
+        "col": 27,
+        "offset": 1372
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcat or strncat used. This is an issue because strcat or strncat can lead to buffer overflow vulns. Fix this by using strcat_s instead.",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-12553",
+            "https://techblog.mediaservice.net/2020/04/cve-2020-2851-stack-based-buffer-overflow-in-cde-libdtsvc/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ]
+}

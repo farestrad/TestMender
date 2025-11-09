@@ -1,0 +1,264 @@
+{
+  "version": "1.141.0",
+  "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_09.c",
+  "results": [
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_09.c",
+      "start": {
+        "line": 37,
+        "col": 9,
+        "offset": 1136
+      },
+      "end": {
+        "line": 37,
+        "col": 35,
+        "offset": 1162
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(source, 'C', 100-1)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-string-copy-fn",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_09.c",
+      "start": {
+        "line": 40,
+        "col": 9,
+        "offset": 1356
+      },
+      "end": {
+        "line": 40,
+        "col": 29,
+        "offset": 1376
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcpy or strncpy used. This is an issue because strcpy does not affirm the size of the destination array and strncpy will not automatically NULL-terminate strings. This can lead to buffer overflows, which can cause program crashes and potentially let an attacker inject code in the program. Fix this by using strcpy_s instead (although note that strcpy_s is an optional part of the C11 standard, and so may not be available).",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/676",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-11365"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_09.c",
+      "start": {
+        "line": 68,
+        "col": 9,
+        "offset": 2075
+      },
+      "end": {
+        "line": 68,
+        "col": 35,
+        "offset": 2101
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(source, 'C', 100-1)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-string-copy-fn",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_09.c",
+      "start": {
+        "line": 71,
+        "col": 9,
+        "offset": 2295
+      },
+      "end": {
+        "line": 71,
+        "col": 29,
+        "offset": 2315
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcpy or strncpy used. This is an issue because strcpy does not affirm the size of the destination array and strncpy will not automatically NULL-terminate strings. This can lead to buffer overflows, which can cause program crashes and potentially let an attacker inject code in the program. Fix this by using strcpy_s instead (although note that strcpy_s is an optional part of the C11 standard, and so may not be available).",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/676",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-11365"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_09.c",
+      "start": {
+        "line": 90,
+        "col": 9,
+        "offset": 2813
+      },
+      "end": {
+        "line": 90,
+        "col": 35,
+        "offset": 2839
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(source, 'C', 100-1)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-string-copy-fn",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_09.c",
+      "start": {
+        "line": 93,
+        "col": 9,
+        "offset": 3033
+      },
+      "end": {
+        "line": 93,
+        "col": 29,
+        "offset": 3053
+      },
+      "extra": {
+        "message": "Finding triggers whenever there is a strcpy or strncpy used. This is an issue because strcpy does not affirm the size of the destination array and strncpy will not automatically NULL-terminate strings. This can lead to buffer overflows, which can cause program crashes and potentially let an attacker inject code in the program. Fix this by using strcpy_s instead (although note that strcpy_s is an optional part of the C11 standard, and so may not be available).",
+        "metadata": {
+          "cwe": [
+            "CWE-676: Use of Potentially Dangerous Function"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/676",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-11365"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "HIGH"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ]
+}

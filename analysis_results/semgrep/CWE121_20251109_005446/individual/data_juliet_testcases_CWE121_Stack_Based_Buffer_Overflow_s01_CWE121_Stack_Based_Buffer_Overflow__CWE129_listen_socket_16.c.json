@@ -1,0 +1,96 @@
+{
+  "version": "1.141.0",
+  "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_16.c",
+  "results": [
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_16.c",
+      "start": {
+        "line": 76,
+        "col": 17,
+        "offset": 2163
+      },
+      "end": {
+        "line": 76,
+        "col": 53,
+        "offset": 2199
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(&service, 0, sizeof(service)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "tools.semgrep-rules.c.lang.security.insecure-use-memset",
+      "path": "data/juliet/testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_16.c",
+      "start": {
+        "line": 184,
+        "col": 17,
+        "offset": 5504
+      },
+      "end": {
+        "line": 184,
+        "col": 53,
+        "offset": 5540
+      },
+      "extra": {
+        "message": "When handling sensitive information in a buffer, it's important to ensure  that the data is securely erased before the buffer is deleted or reused.  While `memset()` is commonly used for this purpose, it can leave sensitive  information behind due to compiler optimizations or other factors.  To avoid this potential vulnerability, it's recommended to use the  `memset_s()` function instead. `memset_s()` is a standardized function  that securely overwrites the memory with a specified value, making it more  difficult for an attacker to recover any sensitive data that was stored in  the buffer. By using `memset_s()` instead of `memset()`, you can help to  ensure that your application is more secure and less vulnerable to exploits  that rely on residual data in memory.",
+        "fix": "memset_s(&service, 0, sizeof(service)",
+        "metadata": {
+          "cwe": [
+            "CWE-14: Compiler Removal of Code to Clear Buffers"
+          ],
+          "owasp": [
+            "A04:2021 - Insecure Design"
+          ],
+          "references": [
+            "https://cwe.mitre.org/data/definitions/14.html",
+            "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+          ],
+          "category": "security",
+          "technology": [
+            "c"
+          ],
+          "confidence": "LOW",
+          "subcategory": [
+            "audit"
+          ],
+          "likelihood": "LOW",
+          "impact": "MEDIUM"
+        },
+        "severity": "WARNING",
+        "fingerprint": "requires login",
+        "lines": "requires login",
+        "validation_state": "NO_VALIDATOR",
+        "engine_kind": "OSS"
+      }
+    }
+  ]
+}

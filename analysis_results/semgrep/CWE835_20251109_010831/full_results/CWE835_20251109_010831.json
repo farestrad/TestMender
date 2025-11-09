@@ -1,0 +1,87 @@
+{
+  "version": "1.141.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__do_01.c",
+      "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__do_true_01.c",
+      "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_01.c",
+      "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_empty_01.c",
+      "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__while_01.c",
+      "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__while_true_01.c"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.008342981338500977,
+    "profiling_times": {
+      "config_time": 0.3767690658569336,
+      "core_time": 0.5276134014129639,
+      "ignores_time": 0.00009703636169433594,
+      "total_time": 0.9049639701843262
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 0.007973670959472656,
+      "per_file_time": {
+        "mean": 0.0013289451599121094,
+        "std_dev": 6.296306764852487E-8
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.0,
+      "rules_matched_ratio": 0.0
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 81827008
+  },
+  "engine_requested": "OSS",
+  "skipped_rules": []
+}

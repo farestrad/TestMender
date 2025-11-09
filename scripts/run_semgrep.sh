@@ -29,10 +29,10 @@ LOCAL_RULES_DIR="tools/semgrep-rules/c/lang/security"
 
 # Registry fallbacks (only if vendored path missing)
 REGISTRY_FALLBACKS=(
-  "p/c"               # C/C++ ruleset (may include Pro rules)
-  "p/security-audit"  # broader security audit
-  "p/default"         # general defaults
-  "auto"              # let semgrep choose (contacts registry)
+  "p/c"
+  "p/security-audit"
+  "p/default"
+  "auto"
 )
 
 echo "=========================================="
@@ -85,9 +85,14 @@ for CWE in "$@"; do
     continue
   fi
 
-  OUTPUT_FILE="$OUTPUT_BASE/CWE${CWE}_${TIMESTAMP}.json"
-  OUTPUT_DIR="$OUTPUT_BASE/CWE${CWE}_${TIMESTAMP}"
-  mkdir -p "$OUTPUT_DIR"
+  # --- Adjusted output structure ---------------------------------
+  BASE_DIR="$OUTPUT_BASE/CWE${CWE}_${TIMESTAMP}"
+  FULL_DIR="$BASE_DIR/full_results"
+  INDIVIDUAL_DIR="$BASE_DIR/individual"
+
+  mkdir -p "$FULL_DIR" "$INDIVIDUAL_DIR"
+
+  OUTPUT_FILE="$FULL_DIR/CWE${CWE}_${TIMESTAMP}.json"
 
   echo ""
   echo "📊 Analyzing CWE${CWE}..."
@@ -104,7 +109,6 @@ for CWE in "$@"; do
       "$SOURCE_DIR" >/dev/null 2>&1; then
     :
   else
-    # If it failed, but output exists, keep going (often still has results)
     if [[ ! -s "$TEMP_JSON" ]]; then
       echo "   ❌ Semgrep failed and produced no output"
       rm -f "$TEMP_JSON"
@@ -156,13 +160,12 @@ for CWE in "$@"; do
         ' "$OUTPUT_FILE"
       )
       if command -v column >/dev/null 2>&1; then
-        # shellcheck disable=SC2001
         echo "$TSV_TABLE" | column -t
       else
         echo "$TSV_TABLE"
       fi
 
-      # CSV summary next to the JSON
+      # CSV summary lives next to the full JSON (in full_results/)
       CSV_FILE="${OUTPUT_FILE%.json}.summary.csv"
       jq -r '
         .results
@@ -180,7 +183,6 @@ for CWE in "$@"; do
       echo "------------------------------------------"
       echo "🧪 Function/file hint (GOOD vs BAD):"
       if command -v rg >/dev/null 2>&1; then
-        # Smarter: filename OR content shows function bad()/good()
         while IFS= read -r f; do
           if [[ "$f" =~ [Gg][Oo][Oo][Dd] ]] || rg -n --no-mmap --fixed-strings "void good" "$f" >/dev/null 2>&1; then
             echo "✅ GOOD: $f"
@@ -191,7 +193,6 @@ for CWE in "$@"; do
           fi
         done < <(jq -r '.results[].path' "$OUTPUT_FILE" | sort -u)
       else
-        # Fallback: filename heuristic only
         jq -r '
           .results[]
           | .path as $file
@@ -205,14 +206,15 @@ for CWE in "$@"; do
         ' "$OUTPUT_FILE" | sort -u
       fi
 
+      # Per-file JSON split → individual/
       echo "------------------------------------------"
-      echo "🗂  Writing per-file JSONs to: $OUTPUT_DIR/"
-      # Split results by file into separate pretty JSONs
-      # Each file: { version, path, results:[...only for that path...] }
-      mapfile -t FILES < <(jq -r '.results[].path' "$OUTPUT_FILE" | sort -u)
-      for f in "${FILES[@]}"; do
+      echo "🗂  Writing per-file JSONs to: $INDIVIDUAL_DIR/"
+
+      FILES_LIST="$(jq -r '.results[].path' "$OUTPUT_FILE" | sort -u)"
+      while IFS= read -r f; do
+        [[ -z "$f" ]] && continue
         safe_name="$(echo "$f" | tr '/ ' '__')"
-        per_file="$OUTPUT_DIR/${safe_name}.json"
+        per_file="$INDIVIDUAL_DIR/${safe_name}.json"
         jq --arg p "$f" '
           {
             version: .version,
@@ -221,7 +223,8 @@ for CWE in "$@"; do
           }
         ' "$OUTPUT_FILE" > "$per_file"
         echo "   • $(basename "$per_file")"
-      done
+      done <<< "$FILES_LIST"
+
       echo "------------------------------------------"
     else
       echo "   📈 Install 'jq' to see summaries, tables, and per-file outputs"
@@ -240,15 +243,17 @@ echo "📁 Results saved in: $OUTPUT_BASE/"
 echo ""
 echo "🔍 View results:"
 for CWE in "$@"; do
-  OUTPUT_FILE="$OUTPUT_BASE/CWE${CWE}_${TIMESTAMP}.json"
-  if [[ -f "$OUTPUT_FILE" ]]; then
+  BASE_DIR="$OUTPUT_BASE/CWE${CWE}_${TIMESTAMP}"
+  FULL_DIR="$BASE_DIR/full_results"
+  INDIVIDUAL_DIR="$BASE_DIR/individual"
+  JSON_PATH="$FULL_DIR/CWE${CWE}_${TIMESTAMP}.json"
+  if [[ -f "$JSON_PATH" ]]; then
     if command -v jq >/dev/null 2>&1; then
-      echo "   jq . $OUTPUT_FILE"
+      echo "   jq . $JSON_PATH"
     else
-      echo "   cat $OUTPUT_FILE"
+      echo "   cat $JSON_PATH"
     fi
-    SUBDIR="$OUTPUT_BASE/CWE${CWE}_${TIMESTAMP}"
-    [[ -d "$SUBDIR" ]] && echo "   (Per-file JSONs in: $SUBDIR/ )"
+    [[ -d "$INDIVIDUAL_DIR" ]] && echo "   (Per-file JSONs in: $INDIVIDUAL_DIR/ )"
   fi
 done
 echo ""
