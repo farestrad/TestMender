@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <signal.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <errno.h>
+
+extern void goodG2B1(void);
+extern void CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22_badSource(void);
+
+int main() {
+    pid_t pid;
+    int status;
+
+    pid = fork();
+    if (pid == 0) {
+        alarm(3);
+        goodG2B1();
+        exit(0);
+    } else {
+        wait(&status);
+        if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+            printf("GOOD: PASS\n");
+        } else {
+            printf("GOOD: FAIL\n");
+        }
+    }
+
+    pid = fork();
+    if (pid == 0) {
+        alarm(3);
+        CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22_badSource();
+        exit(0);
+    } else {
+        wait(&status);
+        if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+            printf("BAD: PASS\n");
+        } else {
+            printf("BAD: FAIL\n");
+        }
+    }
+
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+        exit(0);
+    } else {
+        exit(1);
+    }
+}
