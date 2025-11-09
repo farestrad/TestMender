@@ -256,3 +256,42 @@ pip install --upgrade flawfinder
 ```
 ### 3. Test samples for static analysis tools
 ./scripts/test_samples.sh
+
+
+
+
+
+
+## 🔑 Gemini API Setup
+
+To enable Gemini 2.5 Flash integration for automated test case generation:
+
+### 1. Create and activate a Python virtual environment
+Use your local Python 3.11 installation to ensure compatibility:
+
+
+/Library/Frameworks/Python.framework/Versions/3.11/bin/python3 -m venv .venv
+source .venv/bin/activate
+python -V  # should show Python 3.11.x
+
+2. Install required packages
+python -m pip install -U pip
+python -m pip install python-dotenv google-generativeai
+
+### 3. Add your Gemini API key
+
+Create a file named .env in the project root and add your key:
+
+GEMINI_API_KEY=your_api_key_here
+
+
+### 4. Test the Gemini integration
+
+run the following from root : scripts/test_gemini.py:
+
+Expected output:
+
+print("Hello, world!")
+
+
+✅ If you see the above, your Gemini setup is complete.

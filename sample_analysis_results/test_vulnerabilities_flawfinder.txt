@@ -57,7 +57,7 @@ test_vulnerabilities.c:106:  [2] (buffer) char:
 ANALYSIS SUMMARY:
 
 Hits = 12
-Lines analyzed = 121 in approximately 0.00 seconds (62896 lines/second)
+Lines analyzed = 121 in approximately 0.00 seconds (58794 lines/second)
 Physical Source Lines of Code (SLOC) = 79
 Hits@level = [0]  15 [1]   0 [2]   7 [3]   1 [4]   3 [5]   1
 Hits@level+ = [0+]  27 [1+]  12 [2+]  12 [3+]   5 [4+]   4 [5+]   1
