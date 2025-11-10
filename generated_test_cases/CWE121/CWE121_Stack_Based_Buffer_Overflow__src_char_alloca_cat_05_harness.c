@@ -42,5 +42,9 @@ int main(void) {
         }
     }
 
-    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0 && WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+        exit(0);
+    } else {
+        exit(1);
+    }
 }

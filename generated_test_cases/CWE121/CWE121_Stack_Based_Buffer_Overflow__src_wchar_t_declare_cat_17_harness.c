@@ -8,7 +8,7 @@
 extern void good(void);
 extern void bad(void);
 
-int main(void) {
+int main() {
     pid_t pid;
     int status;
 

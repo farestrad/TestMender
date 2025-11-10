@@ -8,7 +8,7 @@
 extern void goodG2B(void);
 extern void CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b_badSource(void);
 
-int main() {
+int main(void) {
     pid_t pid;
     int status;
 
@@ -40,9 +40,5 @@ int main() {
         }
     }
 
-    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
-        exit(1);
-    } else {
-        exit(0);
-    }
+    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
 }

@@ -8,7 +8,7 @@
 extern void CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_goodG2BSink(void);
 extern void CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_badSink(void);
 
-int main() {
+int main(void) {
     pid_t pid;
     int status;
 
@@ -33,7 +33,7 @@ int main() {
         exit(0);
     } else {
         wait(&status);
-        if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+        if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");
