@@ -5,8 +5,8 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void CWE369_Divide_by_Zero__float_rand_54d_goodG2BSink(void);
-extern void CWE369_Divide_by_Zero__float_rand_54d_badSink(void);
+extern void CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_goodG2BSink(void);
+extern void CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_badSink(void);
 
 int main(void) {
     pid_t pid;
@@ -15,7 +15,7 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE369_Divide_by_Zero__float_rand_54d_goodG2BSink();
+        CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -29,7 +29,7 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE369_Divide_by_Zero__float_rand_54d_badSink();
+        CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_badSink();
         exit(0);
     } else {
         wait(&status);

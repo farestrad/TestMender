@@ -8,11 +8,10 @@
 extern void good(void);
 extern void bad(void);
 
-int main() {
+int main(void) {
     pid_t pid;
     int status;
 
-    // Run GOOD
     pid = fork();
     if (pid == 0) {
         alarm(3);
@@ -27,7 +26,6 @@ int main() {
         }
     }
 
-    // Run BAD
     pid = fork();
     if (pid == 0) {
         alarm(3);

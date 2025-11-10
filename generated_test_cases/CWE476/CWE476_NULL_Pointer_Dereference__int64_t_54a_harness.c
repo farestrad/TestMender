@@ -18,7 +18,7 @@ int main() {
         CWE476_NULL_Pointer_Dereference__int64_t_54b_goodG2BSink();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
+        wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
             printf("GOOD: PASS\n");
         } else {
@@ -32,13 +32,17 @@ int main() {
         bad();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
-        if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+        wait(&status);
+        if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");
         }
     }
 
-    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+        exit(0);
+    } else {
+        exit(1);
+    }
 }

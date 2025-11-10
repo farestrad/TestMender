@@ -1,0 +1,376 @@
+{
+  "cwe": 121,
+  "timestamp": "2025-11-09T12:21:24.469442",
+  "total_files": 5908,
+  "selected_files": 20,
+  "files": [
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s04/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54c.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54c.c",
+      "good_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54d_goodG2BSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54c_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54d_badSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54d_goodG2BSink",
+      "bad_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_54d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_09.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_09.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_09_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_09_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s05/CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_10.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_10.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_10_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_10_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s07/CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_snprintf_45.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_snprintf_45.c",
+      "good_functions": [
+        "goodG2B",
+        "goodG2BSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_snprintf_45_good",
+        "good"
+      ],
+      "bad_functions": [
+        "badSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_snprintf_45_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s04/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_17.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_17.c",
+      "good_functions": [
+        "goodG2B",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_17_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_17_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s05/CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b.c",
+      "good_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_goodG2BSink",
+      "bad_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s02/CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memcpy_06.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memcpy_06.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memcpy_06_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memcpy_06_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53b.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53b.c",
+      "good_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_goodG2BSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_badSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_goodG2BSink",
+      "bad_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE129_large_13.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE129_large_13.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_large_13_good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_large_13_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s05/CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_loop_53a.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_loop_53a.c",
+      "good_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_loop_53b_goodG2BSink",
+        "goodG2B",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_loop_53_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_loop_53b_badSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_loop_53_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_09_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s06/CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memcpy_05.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memcpy_05.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memcpy_05_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memcpy_05_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s04/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_10.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_10.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_10_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_10_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s08/CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_05.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_05.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_05_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_05_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s03/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_07.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_07.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_07_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_07_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52b.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52b.c",
+      "good_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_goodG2BSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52b_goodG2BSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_goodB2GSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_badSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_goodG2BSink",
+      "bad_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s02/CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53c.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53c.c",
+      "good_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_goodG2BSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53c_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_badSink",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_goodG2BSink",
+      "bad_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s01/CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memmove_15.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memmove_15.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memmove_15_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memmove_15_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s07/CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b.c",
+      "good_functions": [
+        "goodG2B",
+        "CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b_goodG2BSource"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b_badSource"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B",
+      "bad_sym": "CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b_badSource",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE121_Stack_Based_Buffer_Overflow/s09/CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_17.c",
+      "file_name": "CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_17.c",
+      "good_functions": [
+        "goodG2B",
+        "CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_17_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_17_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}

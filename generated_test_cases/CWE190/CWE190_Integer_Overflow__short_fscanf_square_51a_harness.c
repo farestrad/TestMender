@@ -5,17 +5,17 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void CWE369_Divide_by_Zero__float_rand_54d_goodG2BSink(void);
-extern void CWE369_Divide_by_Zero__float_rand_54d_badSink(void);
+extern void CWE190_Integer_Overflow__short_fscanf_square_51b_goodG2BSink(void);
+extern void bad(void);
 
-int main(void) {
+int main() {
     pid_t pid;
     int status;
 
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE369_Divide_by_Zero__float_rand_54d_goodG2BSink();
+        CWE190_Integer_Overflow__short_fscanf_square_51b_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -29,7 +29,7 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE369_Divide_by_Zero__float_rand_54d_badSink();
+        bad();
         exit(0);
     } else {
         wait(&status);
@@ -40,5 +40,8 @@ int main(void) {
         }
     }
 
-    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+        exit(1);
+    }
+    exit(0);
 }

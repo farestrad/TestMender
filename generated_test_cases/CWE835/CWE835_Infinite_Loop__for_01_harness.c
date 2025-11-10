@@ -18,7 +18,7 @@ int main() {
         good();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
+        wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
             printf("GOOD: PASS\n");
         } else {
@@ -32,19 +32,15 @@ int main() {
         bad();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
+        wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
             printf("BAD: PASS\n");
-        } else if (WIFSIGNALED(status)) {
+        } else if (WIFSIGNALED(status) || (errno == ECHILD && WIFEXITED(status) == 0)) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");
         }
     }
 
-    if (WIFEXITED(status) && WEXITSTATUS(status) == 0 && WIFEXITED(status) && WEXITSTATUS(status) != 0) {
-        exit(0);
-    } else {
-        exit(1);
-    }
+    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
 }

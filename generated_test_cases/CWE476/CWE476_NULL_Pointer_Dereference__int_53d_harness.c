@@ -18,7 +18,7 @@ int main(void) {
         CWE476_NULL_Pointer_Dereference__int_53d_goodG2BSink();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
+        wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
             printf("GOOD: PASS\n");
         } else {
@@ -32,7 +32,7 @@ int main(void) {
         CWE476_NULL_Pointer_Dereference__int_53d_badSink();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
+        wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
             printf("BAD: PASS\n");
         } else {

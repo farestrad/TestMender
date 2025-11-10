@@ -12,6 +12,7 @@ int main(void) {
     pid_t pid;
     int status;
 
+    // Fork for GOOD
     pid = fork();
     if (pid == 0) {
         alarm(3);
@@ -26,6 +27,7 @@ int main(void) {
         }
     }
 
+    // Fork for BAD
     pid = fork();
     if (pid == 0) {
         alarm(3);

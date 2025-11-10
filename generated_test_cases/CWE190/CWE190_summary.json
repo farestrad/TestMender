@@ -1,0 +1,389 @@
+{
+  "cwe": 190,
+  "timestamp": "2025-11-09T17:49:15.593293",
+  "total_files": 5040,
+  "selected_files": 20,
+  "files": [
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s02/CWE190_Integer_Overflow__int64_t_rand_add_14.c",
+      "file_name": "CWE190_Integer_Overflow__int64_t_rand_add_14.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE190_Integer_Overflow__int64_t_rand_add_14_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__int64_t_rand_add_14_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s05/CWE190_Integer_Overflow__unsigned_int_rand_add_10.c",
+      "file_name": "CWE190_Integer_Overflow__unsigned_int_rand_add_10.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE190_Integer_Overflow__unsigned_int_rand_add_10_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_rand_add_10_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s02/CWE190_Integer_Overflow__int_connect_socket_add_52a.c",
+      "file_name": "CWE190_Integer_Overflow__int_connect_socket_add_52a.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__int_connect_socket_add_52b_goodG2BSink",
+        "goodG2B",
+        "CWE190_Integer_Overflow__int_connect_socket_add_52b_goodB2GSink",
+        "goodB2G",
+        "CWE190_Integer_Overflow__int_connect_socket_add_52_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__int_connect_socket_add_52b_badSink",
+        "CWE190_Integer_Overflow__int_connect_socket_add_52_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__int_connect_socket_add_52b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s01/CWE190_Integer_Overflow__char_rand_add_54e.c",
+      "file_name": "CWE190_Integer_Overflow__char_rand_add_54e.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__char_rand_add_54e_goodG2BSink",
+        "CWE190_Integer_Overflow__char_rand_add_54e_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__char_rand_add_54e_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__char_rand_add_54e_goodG2BSink",
+      "bad_sym": "CWE190_Integer_Overflow__char_rand_add_54e_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s06/CWE190_Integer_Overflow__unsigned_int_max_postinc_51b.c",
+      "file_name": "CWE190_Integer_Overflow__unsigned_int_max_postinc_51b.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_goodG2BSink",
+        "CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_goodG2BSink",
+      "bad_sym": "CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s04/CWE190_Integer_Overflow__short_rand_multiply_16.c",
+      "file_name": "CWE190_Integer_Overflow__short_rand_multiply_16.c",
+      "good_functions": [
+        "goodB2G",
+        "goodG2B",
+        "CWE190_Integer_Overflow__short_rand_multiply_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__short_rand_multiply_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s05/CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b.c",
+      "file_name": "CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_goodG2BSink",
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_goodG2BSink",
+      "bad_sym": "CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s03/CWE190_Integer_Overflow__int_fgets_square_41.c",
+      "file_name": "CWE190_Integer_Overflow__int_fgets_square_41.c",
+      "good_functions": [
+        "goodG2BSink",
+        "goodG2B",
+        "goodB2GSink",
+        "goodB2G",
+        "CWE190_Integer_Overflow__int_fgets_square_41_good"
+      ],
+      "bad_functions": [
+        "badSink",
+        "CWE190_Integer_Overflow__int_fgets_square_41_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s07/CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b.c",
+      "file_name": "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b.c",
+      "good_functions": [
+        "goodG2B",
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_goodG2BSource",
+        "goodB2G",
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_goodB2GSource"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_badSource"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B",
+      "bad_sym": "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_badSource",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s01/CWE190_Integer_Overflow__int64_t_fscanf_add_17.c",
+      "file_name": "CWE190_Integer_Overflow__int64_t_fscanf_add_17.c",
+      "good_functions": [
+        "goodB2G",
+        "goodG2B",
+        "CWE190_Integer_Overflow__int64_t_fscanf_add_17_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__int64_t_fscanf_add_17_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s07/CWE190_Integer_Overflow__int_rand_preinc_15.c",
+      "file_name": "CWE190_Integer_Overflow__int_rand_preinc_15.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE190_Integer_Overflow__int_rand_preinc_15_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__int_rand_preinc_15_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s03/CWE190_Integer_Overflow__int_listen_socket_add_07.c",
+      "file_name": "CWE190_Integer_Overflow__int_listen_socket_add_07.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE190_Integer_Overflow__int_listen_socket_add_07_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__int_listen_socket_add_07_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s07/CWE190_Integer_Overflow__short_fscanf_preinc_67b.c",
+      "file_name": "CWE190_Integer_Overflow__short_fscanf_preinc_67b.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__short_fscanf_preinc_67b_goodG2BSink",
+        "CWE190_Integer_Overflow__short_fscanf_preinc_67b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__short_fscanf_preinc_67b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__short_fscanf_preinc_67b_goodG2BSink",
+      "bad_sym": "CWE190_Integer_Overflow__short_fscanf_preinc_67b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s04/CWE190_Integer_Overflow__short_max_square_16.c",
+      "file_name": "CWE190_Integer_Overflow__short_max_square_16.c",
+      "good_functions": [
+        "goodB2G",
+        "goodG2B",
+        "CWE190_Integer_Overflow__short_max_square_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__short_max_square_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s04/CWE190_Integer_Overflow__short_fscanf_square_51a.c",
+      "file_name": "CWE190_Integer_Overflow__short_fscanf_square_51a.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__short_fscanf_square_51b_goodG2BSink",
+        "goodG2B",
+        "CWE190_Integer_Overflow__short_fscanf_square_51b_goodB2GSink",
+        "goodB2G",
+        "CWE190_Integer_Overflow__short_fscanf_square_51_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__short_fscanf_square_51b_badSink",
+        "CWE190_Integer_Overflow__short_fscanf_square_51_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__short_fscanf_square_51b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s03/CWE190_Integer_Overflow__int_max_add_67a.c",
+      "file_name": "CWE190_Integer_Overflow__int_max_add_67a.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__int_max_add_67b_goodG2BSink",
+        "goodG2B",
+        "CWE190_Integer_Overflow__int_max_add_67b_goodB2GSink",
+        "goodB2G",
+        "CWE190_Integer_Overflow__int_max_add_67_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__int_max_add_67b_badSink",
+        "CWE190_Integer_Overflow__int_max_add_67_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__int_max_add_67b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s07/CWE190_Integer_Overflow__int_fscanf_preinc_44.c",
+      "file_name": "CWE190_Integer_Overflow__int_fscanf_preinc_44.c",
+      "good_functions": [
+        "goodG2B",
+        "goodG2BSink",
+        "goodB2G",
+        "goodB2GSink",
+        "CWE190_Integer_Overflow__int_fscanf_preinc_44_good"
+      ],
+      "bad_functions": [
+        "badSink",
+        "CWE190_Integer_Overflow__int_fscanf_preinc_44_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s05/CWE190_Integer_Overflow__unsigned_int_rand_add_65a.c",
+      "file_name": "CWE190_Integer_Overflow__unsigned_int_rand_add_65a.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_rand_add_65b_goodG2BSink",
+        "goodG2B",
+        "CWE190_Integer_Overflow__unsigned_int_rand_add_65b_goodB2GSink",
+        "goodB2G",
+        "CWE190_Integer_Overflow__unsigned_int_rand_add_65_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_rand_add_65b_badSink",
+        "CWE190_Integer_Overflow__unsigned_int_rand_add_65_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__unsigned_int_rand_add_65b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s07/CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c.c",
+      "file_name": "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c.c",
+      "good_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_goodG2BSink",
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_goodG2BSink",
+      "bad_sym": "CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE190_Integer_Overflow/s05/CWE190_Integer_Overflow__unsigned_int_max_multiply_04.c",
+      "file_name": "CWE190_Integer_Overflow__unsigned_int_max_multiply_04.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE190_Integer_Overflow__unsigned_int_max_multiply_04_good"
+      ],
+      "bad_functions": [
+        "CWE190_Integer_Overflow__unsigned_int_max_multiply_04_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}

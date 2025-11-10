@@ -8,7 +8,7 @@
 extern void good(void);
 extern void bad(void);
 
-int main() {
+int main(void) {
     pid_t pid;
     int status;
 
@@ -42,5 +42,9 @@ int main() {
         }
     }
 
-    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0 && WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+        exit(0);
+    } else {
+        exit(1);
+    }
 }
