@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-09T17:48:22.743685",
+  "selected_paths": [
+    "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_rand_divide_54a.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__int_connect_socket_divide_41.c",
+    "data/juliet/testcases/CWE367_TOC_TOU/CWE367_TOC_TOU__stat_15.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__int_connect_socket_modulo_04.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_05.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_54a.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_zero_52a.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__int_connect_socket_modulo_01.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_63b.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_54c.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_fscanf_modulo_22b.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_listen_socket_divide_03.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_fscanf_modulo_65a.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_listenSocket_16.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_66b.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_16.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_16.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_53a.c",
+    "data/juliet/testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_45.c"
+  ]
+}

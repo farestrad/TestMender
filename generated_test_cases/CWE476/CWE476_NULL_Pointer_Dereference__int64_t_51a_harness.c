@@ -5,7 +5,7 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void good(void);
+extern void CWE476_NULL_Pointer_Dereference__int64_t_51b_goodG2BSink(void);
 extern void bad(void);
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        good();
+        CWE476_NULL_Pointer_Dereference__int64_t_51b_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -33,16 +33,14 @@ int main() {
         exit(0);
     } else {
         wait(&status);
-        if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
-            printf("BAD: PASS\n");
-        } else if (WIFSIGNALED(status)) {
+        if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");
         }
     }
 
-    if (WIFEXITED(status) && WEXITSTATUS(status) == 0 && WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
         exit(0);
     } else {
         exit(1);

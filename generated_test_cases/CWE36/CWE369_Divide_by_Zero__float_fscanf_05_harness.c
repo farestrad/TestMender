@@ -5,20 +5,20 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_goodG2BSink(void);
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_badSink(void);
+extern void goodB2G1(void);
+extern void bad(void);
 
-int main(void) {
+int main() {
     pid_t pid;
     int status;
 
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_goodG2BSink();
+        goodB2G1();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
+        wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
             printf("GOOD: PASS\n");
         } else {
@@ -29,16 +29,22 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_51b_badSink();
+        bad();
         exit(0);
     } else {
-        waitpid(pid, &status, 0);
+        wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+            printf("BAD: PASS\n");
+        } else if (WIFSIGNALED(status)) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");
         }
     }
 
-    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0 && WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+        exit(0);
+    } else {
+        exit(1);
+    }
 }

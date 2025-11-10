@@ -5,18 +5,17 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_goodG2BSink(void);
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_badSink(void);
+extern void CWE476_NULL_Pointer_Dereference__int_53d_goodG2BSink(void);
+extern void CWE476_NULL_Pointer_Dereference__int_53d_badSink(void);
 
 int main(void) {
     pid_t pid;
     int status;
 
-    // Fork for GOOD
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_goodG2BSink();
+        CWE476_NULL_Pointer_Dereference__int_53d_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -27,11 +26,10 @@ int main(void) {
         }
     }
 
-    // Fork for BAD
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_52c_badSink();
+        CWE476_NULL_Pointer_Dereference__int_53d_badSink();
         exit(0);
     } else {
         wait(&status);

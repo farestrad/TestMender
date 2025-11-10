@@ -5,18 +5,17 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void good(void);
-extern void bad(void);
+extern void CWE476_NULL_Pointer_Dereference__int64_t_66b_goodG2BSink(void);
+extern void CWE476_NULL_Pointer_Dereference__int64_t_66b_badSink(void);
 
-int main() {
+int main(void) {
     pid_t pid;
     int status;
 
-    // Test GOOD
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        good();
+        CWE476_NULL_Pointer_Dereference__int64_t_66b_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -27,17 +26,14 @@ int main() {
         }
     }
 
-    // Test BAD
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        bad();
+        CWE476_NULL_Pointer_Dereference__int64_t_66b_badSink();
         exit(0);
     } else {
         wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
-            printf("BAD: PASS\n");
-        } else if (WIFSIGNALED(status)) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");

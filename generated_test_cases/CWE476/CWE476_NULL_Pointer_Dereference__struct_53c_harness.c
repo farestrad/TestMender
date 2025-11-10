@@ -5,8 +5,8 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void good(void);
-extern void bad(void);
+extern void CWE476_NULL_Pointer_Dereference__struct_53d_goodG2BSink(void);
+extern void CWE476_NULL_Pointer_Dereference__struct_53d_badSink(void);
 
 int main(void) {
     pid_t pid;
@@ -15,7 +15,7 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        good();
+        CWE476_NULL_Pointer_Dereference__struct_53d_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -29,13 +29,11 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        bad();
+        CWE476_NULL_Pointer_Dereference__struct_53d_badSink();
         exit(0);
     } else {
         wait(&status);
         if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
-            printf("BAD: PASS\n");
-        } else if (WIFSIGNALED(status) || (errno == ECHILD && WIFEXITED(status) == 0)) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");

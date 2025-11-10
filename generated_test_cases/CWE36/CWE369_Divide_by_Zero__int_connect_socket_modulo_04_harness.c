@@ -5,8 +5,8 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void goodG2B(void);
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b_badSource(void);
+extern void goodB2G1(void);
+extern void bad(void);
 
 int main(void) {
     pid_t pid;
@@ -15,7 +15,7 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        goodG2B();
+        goodB2G1();
         exit(0);
     } else {
         wait(&status);
@@ -29,7 +29,7 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_61b_badSource();
+        bad();
         exit(0);
     } else {
         wait(&status);
@@ -40,5 +40,9 @@ int main(void) {
         }
     }
 
-    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0 && WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+        exit(0);
+    } else {
+        exit(1);
+    }
 }

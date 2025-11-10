@@ -1,0 +1,378 @@
+{
+  "cwe": 476,
+  "timestamp": "2025-11-09T17:08:25.855551",
+  "total_files": 373,
+  "selected_files": 20,
+  "files": [
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__deref_after_check_08.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__deref_after_check_08.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE476_NULL_Pointer_Dereference__deref_after_check_08_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__deref_after_check_08_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_17.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int64_t_17.c",
+      "good_functions": [
+        "goodB2G",
+        "goodG2B",
+        "CWE476_NULL_Pointer_Dereference__int64_t_17_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_17_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_51a.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int64_t_51a.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_51b_goodG2BSink",
+        "goodG2B",
+        "CWE476_NULL_Pointer_Dereference__int64_t_51b_goodB2GSink",
+        "goodB2G",
+        "CWE476_NULL_Pointer_Dereference__int64_t_51_good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_51b_badSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_51_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int64_t_51b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__struct_07.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__struct_07.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE476_NULL_Pointer_Dereference__struct_07_good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__struct_07_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__wchar_t_52c.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__wchar_t_52c.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__wchar_t_52c_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__wchar_t_52c_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__wchar_t_52c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__wchar_t_52c_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__wchar_t_52c_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_68b.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int_68b.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_68b_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int_68b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_68b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int_68b_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__int_68b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_54b.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int_54b.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_54c_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int_54b_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int_54c_goodB2GSink",
+        "CWE476_NULL_Pointer_Dereference__int_54b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_54c_badSink",
+        "CWE476_NULL_Pointer_Dereference__int_54b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int_54c_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__int_54c_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_51b.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int64_t_51b.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_51b_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_51b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_51b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int64_t_51b_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__int64_t_51b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__struct_53c.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__struct_53c.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__struct_53d_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__struct_53c_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__struct_53d_goodB2GSink",
+        "CWE476_NULL_Pointer_Dereference__struct_53c_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__struct_53d_badSink",
+        "CWE476_NULL_Pointer_Dereference__struct_53c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__struct_53d_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__struct_53d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__deref_after_check_02.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__deref_after_check_02.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE476_NULL_Pointer_Dereference__deref_after_check_02_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__deref_after_check_02_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_53d.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int_53d.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_53d_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int_53d_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_53d_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int_53d_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__int_53d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_10.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int_10.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE476_NULL_Pointer_Dereference__int_10_good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_10_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__long_31.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__long_31.c",
+      "good_functions": [
+        "goodG2B",
+        "goodB2G",
+        "CWE476_NULL_Pointer_Dereference__long_31_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__long_31_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_15.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__binary_if_15.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE476_NULL_Pointer_Dereference__binary_if_15_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__binary_if_15_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int_52b.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int_52b.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_52c_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int_52b_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int_52c_goodB2GSink",
+        "CWE476_NULL_Pointer_Dereference__int_52b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int_52c_badSink",
+        "CWE476_NULL_Pointer_Dereference__int_52b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int_52c_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__int_52c_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_66b.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int64_t_66b.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_66b_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_66b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_66b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int64_t_66b_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__int64_t_66b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_54a.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int64_t_54a.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_54b_goodG2BSink",
+        "goodG2B",
+        "CWE476_NULL_Pointer_Dereference__int64_t_54b_goodB2GSink",
+        "goodB2G",
+        "CWE476_NULL_Pointer_Dereference__int64_t_54_good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_54b_badSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_54_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int64_t_54b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_07.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__binary_if_07.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE476_NULL_Pointer_Dereference__binary_if_07_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__binary_if_07_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__deref_after_check_01.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__deref_after_check_01.c",
+      "good_functions": [
+        "good1",
+        "CWE476_NULL_Pointer_Dereference__deref_after_check_01_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__deref_after_check_01_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__int64_t_54c.c",
+      "file_name": "CWE476_NULL_Pointer_Dereference__int64_t_54c.c",
+      "good_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_54d_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_54c_goodG2BSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_54d_goodB2GSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_54c_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE476_NULL_Pointer_Dereference__int64_t_54d_badSink",
+        "CWE476_NULL_Pointer_Dereference__int64_t_54c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE476_NULL_Pointer_Dereference__int64_t_54d_goodG2BSink",
+      "bad_sym": "CWE476_NULL_Pointer_Dereference__int64_t_54d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}

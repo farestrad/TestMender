@@ -33,14 +33,16 @@ int main() {
         exit(0);
     } else {
         wait(&status);
-        if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+        if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+            printf("BAD: PASS\n");
+        } else if (WIFSIGNALED(status)) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");
         }
     }
 
-    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0 && WIFEXITED(status) && WEXITSTATUS(status) != 0) {
         exit(0);
     } else {
         exit(1);

@@ -5,17 +5,18 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_goodG2BSink(void);
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_badSink(void);
+extern void CWE369_Divide_by_Zero__float_rand_53b_goodG2BSink(void);
+extern void bad(void);
 
 int main(void) {
     pid_t pid;
     int status;
 
+    // Fork for GOOD
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_goodG2BSink();
+        CWE369_Divide_by_Zero__float_rand_53b_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -26,10 +27,11 @@ int main(void) {
         }
     }
 
+    // Fork for BAD
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_53d_badSink();
+        bad();
         exit(0);
     } else {
         wait(&status);

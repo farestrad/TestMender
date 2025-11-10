@@ -5,17 +5,17 @@
 #include <sys/wait.h>
 #include <errno.h>
 
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_goodG2BSink(void);
-extern void CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_badSink(void);
+extern void CWE369_Divide_by_Zero__int_fscanf_modulo_65b_goodG2BSink(void);
+extern void bad(void);
 
-int main(void) {
+int main() {
     pid_t pid;
     int status;
 
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_goodG2BSink();
+        CWE369_Divide_by_Zero__int_fscanf_modulo_65b_goodG2BSink();
         exit(0);
     } else {
         wait(&status);
@@ -29,16 +29,20 @@ int main(void) {
     pid = fork();
     if (pid == 0) {
         alarm(3);
-        CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_53c_badSink();
+        bad();
         exit(0);
     } else {
         wait(&status);
-        if (WIFEXITED(status) && WEXITSTATUS(status) != 0) {
+        if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
             printf("BAD: PASS\n");
         } else {
             printf("BAD: FAIL\n");
         }
     }
 
-    return (WIFEXITED(status) && WEXITSTATUS(status) == 0) ? 0 : 1;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+        exit(0);
+    } else {
+        exit(1);
+    }
 }

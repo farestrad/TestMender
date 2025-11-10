@@ -1,0 +1,401 @@
+{
+  "cwe": 36,
+  "timestamp": "2025-11-09T17:48:22.743882",
+  "total_files": 1103,
+  "selected_files": 20,
+  "files": [
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_13.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_13_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_13_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_rand_divide_54a.c",
+      "file_name": "CWE369_Divide_by_Zero__int_rand_divide_54a.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__int_rand_divide_54b_goodG2BSink",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__int_rand_divide_54b_goodB2GSink",
+        "goodB2G",
+        "CWE369_Divide_by_Zero__int_rand_divide_54_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__int_rand_divide_54b_badSink",
+        "CWE369_Divide_by_Zero__int_rand_divide_54_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__int_rand_divide_54b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__int_connect_socket_divide_41.c",
+      "file_name": "CWE369_Divide_by_Zero__int_connect_socket_divide_41.c",
+      "good_functions": [
+        "goodG2BSink",
+        "goodG2B",
+        "goodB2GSink",
+        "goodB2G",
+        "CWE369_Divide_by_Zero__int_connect_socket_divide_41_good"
+      ],
+      "bad_functions": [
+        "badSink",
+        "CWE369_Divide_by_Zero__int_connect_socket_divide_41_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE367_TOC_TOU/CWE367_TOC_TOU__stat_15.c",
+      "file_name": "CWE367_TOC_TOU__stat_15.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE367_TOC_TOU__stat_15_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE367_TOC_TOU__stat_15_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__int_connect_socket_modulo_04.c",
+      "file_name": "CWE369_Divide_by_Zero__int_connect_socket_modulo_04.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE369_Divide_by_Zero__int_connect_socket_modulo_04_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__int_connect_socket_modulo_04_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_05.c",
+      "file_name": "CWE369_Divide_by_Zero__float_fscanf_05.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE369_Divide_by_Zero__float_fscanf_05_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_fscanf_05_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_54a.c",
+      "file_name": "CWE369_Divide_by_Zero__float_rand_54a.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__float_rand_54b_goodG2BSink",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__float_rand_54b_goodB2GSink",
+        "goodB2G",
+        "CWE369_Divide_by_Zero__float_rand_54_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_rand_54b_badSink",
+        "CWE369_Divide_by_Zero__float_rand_54_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__float_rand_54b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_zero_52a.c",
+      "file_name": "CWE369_Divide_by_Zero__float_zero_52a.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__float_zero_52b_goodG2BSink",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__float_zero_52b_goodB2GSink",
+        "goodB2G",
+        "CWE369_Divide_by_Zero__float_zero_52_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_zero_52b_badSink",
+        "CWE369_Divide_by_Zero__float_zero_52_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__float_zero_52b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__int_connect_socket_modulo_01.c",
+      "file_name": "CWE369_Divide_by_Zero__int_connect_socket_modulo_01.c",
+      "good_functions": [
+        "goodG2B",
+        "goodB2G",
+        "CWE369_Divide_by_Zero__int_connect_socket_modulo_01_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__int_connect_socket_modulo_01_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_63b.c",
+      "file_name": "CWE369_Divide_by_Zero__float_rand_63b.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__float_rand_63b_goodG2BSink",
+        "CWE369_Divide_by_Zero__float_rand_63b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_rand_63b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__float_rand_63b_goodG2BSink",
+      "bad_sym": "CWE369_Divide_by_Zero__float_rand_63b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_54c.c",
+      "file_name": "CWE369_Divide_by_Zero__float_rand_54c.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__float_rand_54d_goodG2BSink",
+        "CWE369_Divide_by_Zero__float_rand_54c_goodG2BSink",
+        "CWE369_Divide_by_Zero__float_rand_54d_goodB2GSink",
+        "CWE369_Divide_by_Zero__float_rand_54c_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_rand_54d_badSink",
+        "CWE369_Divide_by_Zero__float_rand_54c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__float_rand_54d_goodG2BSink",
+      "bad_sym": "CWE369_Divide_by_Zero__float_rand_54d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_fscanf_modulo_22b.c",
+      "file_name": "CWE369_Divide_by_Zero__int_fscanf_modulo_22b.c",
+      "good_functions": [
+        "goodB2G1",
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_22_goodB2G1Sink",
+        "goodB2G2",
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_22_goodB2G2Sink",
+        "goodG2B"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_22_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "CWE369_Divide_by_Zero__int_fscanf_modulo_22_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_listen_socket_divide_03.c",
+      "file_name": "CWE369_Divide_by_Zero__int_listen_socket_divide_03.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE369_Divide_by_Zero__int_listen_socket_divide_03_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__int_listen_socket_divide_03_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s02/CWE369_Divide_by_Zero__int_fscanf_modulo_65a.c",
+      "file_name": "CWE369_Divide_by_Zero__int_fscanf_modulo_65a.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_65b_goodG2BSink",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_65b_goodB2GSink",
+        "goodB2G",
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_65_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_65b_badSink",
+        "CWE369_Divide_by_Zero__int_fscanf_modulo_65_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__int_fscanf_modulo_65b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_listenSocket_16.c",
+      "file_name": "CWE369_Divide_by_Zero__float_listenSocket_16.c",
+      "good_functions": [
+        "goodB2G",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__float_listenSocket_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_listenSocket_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_66b.c",
+      "file_name": "CWE369_Divide_by_Zero__float_fscanf_66b.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__float_fscanf_66b_goodG2BSink",
+        "CWE369_Divide_by_Zero__float_fscanf_66b_goodB2GSink"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_fscanf_66b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__float_fscanf_66b_goodG2BSink",
+      "bad_sym": "CWE369_Divide_by_Zero__float_fscanf_66b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_16.c",
+      "file_name": "CWE369_Divide_by_Zero__float_fscanf_16.c",
+      "good_functions": [
+        "goodB2G",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__float_fscanf_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_fscanf_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_16.c",
+      "file_name": "CWE369_Divide_by_Zero__float_rand_16.c",
+      "good_functions": [
+        "goodB2G",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__float_rand_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_rand_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_rand_53a.c",
+      "file_name": "CWE369_Divide_by_Zero__float_rand_53a.c",
+      "good_functions": [
+        "CWE369_Divide_by_Zero__float_rand_53b_goodG2BSink",
+        "goodG2B",
+        "CWE369_Divide_by_Zero__float_rand_53b_goodB2GSink",
+        "goodB2G",
+        "CWE369_Divide_by_Zero__float_rand_53_good"
+      ],
+      "bad_functions": [
+        "CWE369_Divide_by_Zero__float_rand_53b_badSink",
+        "CWE369_Divide_by_Zero__float_rand_53_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE369_Divide_by_Zero__float_rand_53b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE369_Divide_by_Zero/s01/CWE369_Divide_by_Zero__float_fscanf_45.c",
+      "file_name": "CWE369_Divide_by_Zero__float_fscanf_45.c",
+      "good_functions": [
+        "goodG2B",
+        "goodG2BSink",
+        "goodB2G",
+        "goodB2GSink",
+        "CWE369_Divide_by_Zero__float_fscanf_45_good"
+      ],
+      "bad_functions": [
+        "badSink",
+        "CWE369_Divide_by_Zero__float_fscanf_45_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}
