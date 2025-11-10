@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-09T23:32:34.059412",
+  "selected_paths": [
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_07.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_04.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_18.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_16.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_02.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_09.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_03.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_16.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_04.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_09.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_14.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_02.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_05.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_01.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_15.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_02.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_14.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_13.c",
+    "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_03.c"
+  ]
+}

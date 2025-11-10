@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-09T22:58:52.778193",
+  "selected_paths": [
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_07.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_11.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_18.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_10.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_04.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_03.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_14.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_15.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_01.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_18.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_10.c",
+    "data/juliet/testcases/CWE510_Trapdoor/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.c"
+  ]
+}
