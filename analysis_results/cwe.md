@@ -21,6 +21,8 @@ Each CWE corresponds to a folder in the dataset and a category of vulnerabilitie
 
 | `CWE476_...` | **CWE-476** | NULL Pointer Dereference | Memory Safety | Common dereference vulnerability. |
 | `CWE835_...` | **CWE-835** | Infinite Loop / Uncontrolled Resource Consumption | Control Flow | Infinite loop and CPU/memory exhaustion. |
+| `CWE546_...` | **CWE-546** | 
+| `CWE665_...` | **CWE-665** | 
 | `CWE23_...` | **CWE-23** | Relative Path Traversal | Input Validation | Unvalidated relative path sequences (`../`). |
 | `CWE36_...` | **CWE-36** | Absolute Path Traversal | Input Validation | Full path misuse (e.g., `/etc/passwd`). |
 (result 600 test cases)

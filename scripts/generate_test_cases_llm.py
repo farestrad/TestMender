@@ -38,7 +38,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-ALLOWED_CWES = [121, 122, 835, 364, 23, 36, 190, 476]
+ALLOWED_CWES = [121, 122, 835, 364, 190, 476, 665, 546]
 FILES_PER_CWE = 20
 JULIET_BASE = Path("data/juliet/testcases")
 OUTPUT_DIR = Path("generated_test_cases")
