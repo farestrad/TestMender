@@ -1,0 +1,42 @@
+# Results for CWE364 — 2025-11-11 19:49:46
+[2025-11-11 19:49:47] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_01_run.log
+[2025-11-11 19:49:47] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_01_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_01_run.log
+[2025-11-11 19:49:48] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_02_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_02_run.log
+[2025-11-11 19:49:48] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_02_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_02_run.log
+[2025-11-11 19:49:48] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_03_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_03_run.log
+[2025-11-11 19:49:49] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_03_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_03_run.log
+[2025-11-11 19:49:49] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_04_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_04_run.log
+[2025-11-11 19:49:49] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_04_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_04_run.log
+[2025-11-11 19:49:50] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_05_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_05_run.log
+[2025-11-11 19:49:50] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_05_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_05_run.log
+[2025-11-11 19:49:50] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_06_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_06_run.log
+[2025-11-11 19:49:51] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_06_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_06_run.log
+[2025-11-11 19:49:51] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_07_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_07_run.log
+[2025-11-11 19:49:51] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_07_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_07_run.log
+[2025-11-11 19:49:52] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_08_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_08_run.log
+[2025-11-11 19:49:52] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_08_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_08_run.log
+[2025-11-11 19:49:52] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_09_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_09_run.log
+[2025-11-11 19:49:53] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_09_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_09_run.log
+[2025-11-11 19:49:53] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_10_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_10_run.log
+[2025-11-11 19:49:54] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_10_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_10_run.log
+[2025-11-11 19:49:54] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_11_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_11_run.log
+[2025-11-11 19:49:54] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_11_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_11_run.log
+[2025-11-11 19:49:55] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_12_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_12_run.log
+[2025-11-11 19:49:55] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_12_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_12_run.log
+[2025-11-11 19:49:55] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_13_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_13_run.log
+[2025-11-11 19:49:56] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_13_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_13_run.log
+[2025-11-11 19:49:56] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_14_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_14_run.log
+[2025-11-11 19:49:56] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_14_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_14_run.log
+[2025-11-11 19:49:57] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_15_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_15_run.log
+[2025-11-11 19:49:57] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_15_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_15_run.log
+[2025-11-11 19:49:57] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_16_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_16_run.log
+[2025-11-11 19:49:58] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_16_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_16_run.log
+[2025-11-11 19:49:58] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_17_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_17_run.log
+[2025-11-11 19:49:59] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_17_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_17_run.log
+[2025-11-11 19:49:59] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_18_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_18_run.log
+[2025-11-11 19:49:59] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_18_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE364_Signal_Handler_Race_Condition__basic_18_run.log
+
+================ Summary ================
+GOOD: 18 / 18  (100.0%)  (clean runs expected)
+BAD:  0 / 18  (0.0%)   (ASan expected)
+=========================================

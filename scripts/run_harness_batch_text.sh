@@ -27,7 +27,7 @@ fi
 
 CWE="$1"; shift || true
 MODE="both"
-OUT_PATH="build/cwe${CWE}_results.txt"
+OUT_PATH="harness_results/segrep/cwe${CWE}_results.txt"
 APPEND=0
 TIMEOUT_SECS="15"
 
