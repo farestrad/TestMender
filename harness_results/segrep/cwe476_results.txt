@@ -1,0 +1,46 @@
+# Results for CWE476 — 2025-11-11 23:09:21
+[2025-11-11 23:09:21] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__binary_if_07_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__binary_if_07_run.log
+[2025-11-11 23:09:22] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__binary_if_07_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__binary_if_07_run.log
+[2025-11-11 23:09:22] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__binary_if_15_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__binary_if_15_run.log
+[2025-11-11 23:09:22] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__binary_if_15_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__binary_if_15_run.log
+[2025-11-11 23:09:23] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__deref_after_check_01_run.log
+[2025-11-11 23:09:23] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_01_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__deref_after_check_01_run.log
+[2025-11-11 23:09:23] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_02_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__deref_after_check_02_run.log
+[2025-11-11 23:09:24] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_02_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__deref_after_check_02_run.log
+[2025-11-11 23:09:24] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_08_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__deref_after_check_08_run.log
+[2025-11-11 23:09:25] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_08_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__deref_after_check_08_run.log
+[2025-11-11 23:09:25] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_17_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__int64_t_17_run.log
+[2025-11-11 23:09:26] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_17_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__int64_t_17_run.log
+[2025-11-11 23:09:26] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_51a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:26] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_51a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:26] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_51b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__int64_t_51b_run.log
+[2025-11-11 23:09:27] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_51b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__int64_t_51b_run.log
+[2025-11-11 23:09:27] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_54a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:27] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_54a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:27] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_54c_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:27] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_54c_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:28] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_66b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__int64_t_66b_run.log
+[2025-11-11 23:09:28] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int64_t_66b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__int64_t_66b_run.log
+[2025-11-11 23:09:29] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_10_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__int_10_run.log
+[2025-11-11 23:09:29] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_10_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__int_10_run.log
+[2025-11-11 23:09:29] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_52b_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:29] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_52b_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:30] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_53d_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__int_53d_run.log
+[2025-11-11 23:09:30] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_53d_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__int_53d_run.log
+[2025-11-11 23:09:30] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_54b_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:31] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_54b_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:31] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_68b_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:31] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__int_68b_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:31] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__long_31_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__long_31_run.log
+[2025-11-11 23:09:32] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__long_31_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__long_31_run.log
+[2025-11-11 23:09:32] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__struct_07_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE476_NULL_Pointer_Dereference__struct_07_run.log
+[2025-11-11 23:09:33] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__struct_07_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE476_NULL_Pointer_Dereference__struct_07_run.log
+[2025-11-11 23:09:33] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__struct_53c_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:33] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__struct_53c_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-11 23:09:33] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__wchar_t_52c_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__wchar_t_52c_run.log
+[2025-11-11 23:09:34] CWE=476 | harness=CWE476_NULL_Pointer_Dereference__wchar_t_52c_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE476_NULL_Pointer_Dereference__wchar_t_52c_run.log
+
+================ Summary ================
+GOOD: 9 / 20  (45.0%)  (clean runs expected)
+BAD:  9 / 20  (45.0%)   (ASan expected)
+=========================================
