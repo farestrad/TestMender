@@ -1,0 +1,14 @@
+# Results for CWE835 — 2025-11-16 00:15:42
+[2025-11-16 00:15:42] CWE=835 | harness=CWE835_Infinite_Loop__do_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE835_Infinite_Loop__do_01_run.log
+[2025-11-16 00:16:09] CWE=835 | harness=CWE835_Infinite_Loop__do_01_harness.c | mode=bad | status=FAIL | asan=no | exit=142 | log=build/CWE835_Infinite_Loop__do_01_run.log
+[2025-11-16 00:16:10] CWE=835 | harness=CWE835_Infinite_Loop__for_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE835_Infinite_Loop__for_01_run.log
+[2025-11-16 00:16:36] CWE=835 | harness=CWE835_Infinite_Loop__for_01_harness.c | mode=bad | status=FAIL | asan=no | exit=142 | log=build/CWE835_Infinite_Loop__for_01_run.log
+[2025-11-16 00:16:36] CWE=835 | harness=CWE835_Infinite_Loop__while_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE835_Infinite_Loop__while_01_run.log
+[2025-11-16 00:17:03] CWE=835 | harness=CWE835_Infinite_Loop__while_01_harness.c | mode=bad | status=FAIL | asan=no | exit=142 | log=build/CWE835_Infinite_Loop__while_01_run.log
+[2025-11-16 00:17:03] CWE=835 | harness=CWE835_Infinite_Loop__while_true_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE835_Infinite_Loop__while_true_01_run.log
+[2025-11-16 00:17:30] CWE=835 | harness=CWE835_Infinite_Loop__while_true_01_harness.c | mode=bad | status=FAIL | asan=no | exit=142 | log=build/CWE835_Infinite_Loop__while_true_01_run.log
+
+================ Summary ================
+GOOD: 4 / 4  (100.0%)  (clean runs expected)
+BAD:  0 / 4  (0.0%)   (ASan expected)
+=========================================
