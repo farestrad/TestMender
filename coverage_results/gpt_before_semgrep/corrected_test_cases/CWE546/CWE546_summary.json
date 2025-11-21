@@ -1,0 +1,384 @@
+{
+  "cwe": 546,
+  "timestamp": "2025-11-09T23:32:34.059873",
+  "total_files": 91,
+  "selected_files": 20,
+  "files": [
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_07.c",
+      "file_name": "CWE546_Suspicious_Comment__BUG_07.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__BUG_07_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__BUG_07_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_04.c",
+      "file_name": "CWE546_Suspicious_Comment__HACK_04.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__HACK_04_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__HACK_04_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_18.c",
+      "file_name": "CWE546_Suspicious_Comment__LATER_18.c",
+      "good_functions": [
+        "good1",
+        "CWE546_Suspicious_Comment__LATER_18_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__LATER_18_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_16.c",
+      "file_name": "CWE546_Suspicious_Comment__BUG_16.c",
+      "good_functions": [
+        "good1",
+        "CWE546_Suspicious_Comment__BUG_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__BUG_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_02.c",
+      "file_name": "CWE546_Suspicious_Comment__HACK_02.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__HACK_02_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__HACK_02_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+      "file_name": "CWE546_Suspicious_Comment__FIXME_06.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__FIXME_06_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__FIXME_06_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_09.c",
+      "file_name": "CWE546_Suspicious_Comment__HACK_09.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__HACK_09_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__HACK_09_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_03.c",
+      "file_name": "CWE546_Suspicious_Comment__LATER_03.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__LATER_03_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__LATER_03_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_16.c",
+      "file_name": "CWE546_Suspicious_Comment__FIXME_16.c",
+      "good_functions": [
+        "good1",
+        "CWE546_Suspicious_Comment__FIXME_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__FIXME_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_04.c",
+      "file_name": "CWE546_Suspicious_Comment__TODO_04.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__TODO_04_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__TODO_04_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_09.c",
+      "file_name": "CWE546_Suspicious_Comment__BUG_09.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__BUG_09_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__BUG_09_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_14.c",
+      "file_name": "CWE546_Suspicious_Comment__TODO_14.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__TODO_14_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__TODO_14_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_02.c",
+      "file_name": "CWE546_Suspicious_Comment__LATER_02.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__LATER_02_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__LATER_02_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_05.c",
+      "file_name": "CWE546_Suspicious_Comment__TODO_05.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__TODO_05_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__TODO_05_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_01.c",
+      "file_name": "CWE546_Suspicious_Comment__FIXME_01.c",
+      "good_functions": [
+        "good1",
+        "CWE546_Suspicious_Comment__FIXME_01_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__FIXME_01_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_15.c",
+      "file_name": "CWE546_Suspicious_Comment__HACK_15.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__HACK_15_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__HACK_15_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_02.c",
+      "file_name": "CWE546_Suspicious_Comment__BUG_02.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__BUG_02_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__BUG_02_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_14.c",
+      "file_name": "CWE546_Suspicious_Comment__HACK_14.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__HACK_14_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__HACK_14_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_13.c",
+      "file_name": "CWE546_Suspicious_Comment__HACK_13.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__HACK_13_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__HACK_13_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_03.c",
+      "file_name": "CWE546_Suspicious_Comment__TODO_03.c",
+      "good_functions": [
+        "good1",
+        "good2",
+        "CWE546_Suspicious_Comment__TODO_03_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE546_Suspicious_Comment__TODO_03_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}

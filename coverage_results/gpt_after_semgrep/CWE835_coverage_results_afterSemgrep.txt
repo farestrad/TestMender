@@ -1,0 +1,20 @@
+Pair: CWE835_Infinite_Loop__do_01
+Lines executed:61.54%
+61.54%
+
+Pair: CWE835_Infinite_Loop__for_01
+Lines executed:63.64%
+63.64%
+
+Pair: CWE835_Infinite_Loop__while_01
+Lines executed:61.54%
+61.54%
+
+Pair: CWE835_Infinite_Loop__while_true_01
+Lines executed:61.54%
+61.54%
+
+----------------------------------------
+Total Pairs: 8
+Average Coverage: 62.07%
+----------------------------------------
