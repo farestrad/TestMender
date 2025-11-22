@@ -1,0 +1,28 @@
+# Coverage (llvm-cov) for CWE364 — 2025-11-22 16:51:45
+[2025-11-22 16:51:45] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_01_harness.c | status=OK | line_coverage=18.75%
+[2025-11-22 16:51:46] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_02_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:51:46] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_03_harness.c | status=OK | line_coverage=32.00%
+[2025-11-22 16:51:47] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_04_harness.c | status=OK | line_coverage=32.00%
+[2025-11-22 16:51:47] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_05_harness.c | status=OK | line_coverage=28.57%
+[2025-11-22 16:51:47] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_06_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:51:48] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_07_harness.c | status=OK | line_coverage=28.57%
+[2025-11-22 16:51:48] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_08_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:51:48] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_09_harness.c | status=OK | line_coverage=28.57%
+[2025-11-22 16:51:49] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_10_harness.c | status=OK | line_coverage=28.57%
+[2025-11-22 16:51:49] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_11_harness.c | status=OK | line_coverage=28.57%
+[2025-11-22 16:51:50] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_12_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:51:50] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_13_harness.c | status=OK | line_coverage=28.57%
+[2025-11-22 16:51:51] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_14_harness.c | status=OK | line_coverage=28.57%
+[2025-11-22 16:51:51] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_15_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:51:51] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_16_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:51:52] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_17_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:51:52] CWE=364 | harness=CWE364_Signal_Handler_Race_Condition__basic_18_harness.c | status=OK | line_coverage=18.75%
+
+================ Coverage Summary (llvm-cov) ================
+OK (ran, coverage parsed): 11
+TIMEOUT / crash:          0
+COMPILE_FAIL:             7
+COV_FAIL (no report):     0
+
+Average line coverage over numeric entries: 27.41% (from 11 harnesses)
+============================================================

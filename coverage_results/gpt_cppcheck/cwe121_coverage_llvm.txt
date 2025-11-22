@@ -1,0 +1,30 @@
+# Coverage (llvm-cov) for CWE121 — 2025-11-22 16:47:01
+[2025-11-22 16:47:01] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_05_harness.c | status=OK | line_coverage=30.00%
+[2025-11-22 16:47:02] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-22 16:47:02] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_06_harness.c | status=OK | line_coverage=66.67%
+[2025-11-22 16:47:03] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness.c | status=OK | line_coverage=33.33%
+[2025-11-22 16:47:03] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness.c | status=OK | line_coverage=33.33%
+[2025-11-22 16:47:03] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness.c | status=OK | line_coverage=22.22%
+[2025-11-22 16:47:04] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_11_harness.c | status=OK | line_coverage=33.33%
+[2025-11-22 16:47:04] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_54b_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:47:05] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08_harness.c | status=OK | line_coverage=33.33%
+[2025-11-22 16:47:05] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e_harness.c | status=OK | line_coverage=50.00%
+[2025-11-22 16:47:05] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15_harness.c | status=OK | line_coverage=33.33%
+[2025-11-22 16:47:06] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_snprintf_41_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-22 16:47:06] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_65b_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-22 16:47:07] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_ncpy_07_harness.c | status=OK | line_coverage=33.33%
+[2025-11-22 16:47:07] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_42_harness.c | status=OK | line_coverage=50.00%
+[2025-11-22 16:47:08] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_63b_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-22 16:47:08] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_11_harness.c | status=OK | line_coverage=33.33%
+[2025-11-22 16:47:08] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_66a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-22 16:47:09] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_41_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-22 16:47:09] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c_harness.c | status=COMPILE_FAIL | line_coverage=NA
+
+================ Coverage Summary (llvm-cov) ================
+OK (ran, coverage parsed): 17
+TIMEOUT / crash:          0
+COMPILE_FAIL:             3
+COV_FAIL (no report):     5
+
+Average line coverage over numeric entries: 37.68% (from 12 harnesses)
+============================================================

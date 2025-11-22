@@ -19,13 +19,16 @@ fi
 
 CWE="$1"
 
-HARNESS_DIR="generated_test_cases/CWE${CWE}"
+# Change the harness directory when needed
+HARNESS_DIR="gpt_cppcheck_generated_test/CWE${CWE}"
 JULIET_ROOT="data/juliet/testcases"
 INCLUDE_JULIET="data/juliet/testcasesupport"
 SUPPORT_SOURCES=(data/juliet/testcasesupport/*.c)
 
-OUT_DIR="coverage_results/gpt/CWE${CWE}"
-SUMMARY_OUT="coverage_results/gpt/cwe${CWE}_coverage_llvm.txt"
+# Change the output directory when needed
+OUT_DIR="coverage_results/gpt_cppcheck/CWE${CWE}"
+# Change this directory when needed
+SUMMARY_OUT="coverage_results/gpt_cppcheck/cwe${CWE}_coverage_llvm.txt"
 TIMEOUT_SECS=10
 
 mkdir -p "$OUT_DIR"
