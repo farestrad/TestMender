@@ -1,0 +1,30 @@
+# Coverage (llvm-cov) for CWE546 — 2025-11-21 22:33:24
+[2025-11-21 22:33:24] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_02_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:25] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_07_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:33:25] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_09_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:33:26] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_16_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:33:26] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_01_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-21 22:33:27] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_06_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:27] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_16_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:33:27] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_02_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:28] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_04_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:28] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_09_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:33:29] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_13_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:33:29] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_14_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:33:30] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_15_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:33:30] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_02_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:30] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_03_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:31] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_18_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-21 22:33:31] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_03_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:32] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_04_harness.c | status=OK | line_coverage=66.67%
+[2025-11-21 22:33:32] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_05_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:33:33] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_14_harness.c | status=OK | line_coverage=33.33%
+
+================ Coverage Summary (llvm-cov) ================
+OK (ran, coverage parsed): 20
+TIMEOUT / crash:          0
+COMPILE_FAIL:             0
+COV_FAIL (no report):     2
+
+Average line coverage over numeric entries: 50.00% (from 18 harnesses)
+============================================================

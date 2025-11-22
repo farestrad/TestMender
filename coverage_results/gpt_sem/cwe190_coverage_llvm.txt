@@ -1,0 +1,30 @@
+# Coverage (llvm-cov) for CWE190 — 2025-11-21 22:45:27
+[2025-11-21 22:45:27] CWE=190 | harness=CWE190_Integer_Overflow__char_rand_add_54e_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:45:28] CWE=190 | harness=CWE190_Integer_Overflow__int_connect_socket_add_52a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:45:38] CWE=190 | harness=CWE190_Integer_Overflow__int_fgets_square_41_harness.c | status=TIMEOUT | line_coverage=0.00%
+[2025-11-21 22:45:48] CWE=190 | harness=CWE190_Integer_Overflow__int_fscanf_preinc_44_harness.c | status=TIMEOUT | line_coverage=0.00%
+[2025-11-21 22:45:59] CWE=190 | harness=CWE190_Integer_Overflow__int_listen_socket_add_07_harness.c | status=TIMEOUT | line_coverage=0.00%
+[2025-11-21 22:45:59] CWE=190 | harness=CWE190_Integer_Overflow__int_max_add_67a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:45:59] CWE=190 | harness=CWE190_Integer_Overflow__int_rand_preinc_15_harness.c | status=OK | line_coverage=40.00%
+[2025-11-21 22:46:10] CWE=190 | harness=CWE190_Integer_Overflow__int64_t_fscanf_add_17_harness.c | status=TIMEOUT | line_coverage=0.00%
+[2025-11-21 22:46:10] CWE=190 | harness=CWE190_Integer_Overflow__int64_t_rand_add_14_harness.c | status=OK | line_coverage=40.00%
+[2025-11-21 22:46:10] CWE=190 | harness=CWE190_Integer_Overflow__short_fscanf_preinc_67b_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:46:11] CWE=190 | harness=CWE190_Integer_Overflow__short_fscanf_square_51a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:46:11] CWE=190 | harness=CWE190_Integer_Overflow__short_max_square_16_harness.c | status=OK | line_coverage=62.50%
+[2025-11-21 22:46:12] CWE=190 | harness=CWE190_Integer_Overflow__short_rand_multiply_16_harness.c | status=OK | line_coverage=38.89%
+[2025-11-21 22:46:12] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_harness.c | status=OK | line_coverage=37.50%
+[2025-11-21 22:46:12] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:46:13] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:46:13] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_max_multiply_04_harness.c | status=OK | line_coverage=58.33%
+[2025-11-21 22:46:14] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:46:14] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_rand_add_10_harness.c | status=OK | line_coverage=40.00%
+[2025-11-21 22:46:14] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_rand_add_65a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+
+================ Coverage Summary (llvm-cov) ================
+OK (ran, coverage parsed): 11
+TIMEOUT / crash:          4
+COMPILE_FAIL:             5
+COV_FAIL (no report):     0
+
+Average line coverage over numeric entries: 34.48% (from 15 harnesses)
+============================================================

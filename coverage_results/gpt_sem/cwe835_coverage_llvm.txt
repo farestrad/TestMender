@@ -1,0 +1,14 @@
+# Coverage (llvm-cov) for CWE835 — 2025-11-21 22:33:56
+[2025-11-21 22:33:57] CWE=835 | harness=CWE835_Infinite_Loop__do_01_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:33:57] CWE=835 | harness=CWE835_Infinite_Loop__for_01_harness.c | status=OK | line_coverage=62.50%
+[2025-11-21 22:33:58] CWE=835 | harness=CWE835_Infinite_Loop__while_01_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:33:58] CWE=835 | harness=CWE835_Infinite_Loop__while_true_01_harness.c | status=OK | line_coverage=75.00%
+
+================ Coverage Summary (llvm-cov) ================
+OK (ran, coverage parsed): 4
+TIMEOUT / crash:          0
+COMPILE_FAIL:             0
+COV_FAIL (no report):     0
+
+Average line coverage over numeric entries: 59.38% (from 4 harnesses)
+============================================================

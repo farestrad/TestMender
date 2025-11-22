@@ -1,0 +1,30 @@
+# Coverage (llvm-cov) for CWE546 — 2025-11-21 22:47:37
+[2025-11-21 22:47:38] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_02_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:38] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_07_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:38] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_09_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:38] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_16_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:39] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_01_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:39] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_06_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:39] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_16_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:39] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_02_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:40] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_04_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:40] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_09_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:40] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_13_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:40] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_14_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:41] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_15_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:41] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_02_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:41] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_03_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:41] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_18_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:42] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_03_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:42] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_04_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:42] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_05_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:47:43] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_14_harness.c | status=COMPILE_FAIL | line_coverage=NA
+
+================ Coverage Summary (llvm-cov) ================
+OK (ran, coverage parsed): 0
+TIMEOUT / crash:          0
+COMPILE_FAIL:             20
+COV_FAIL (no report):     0
+
+Average line coverage over numeric entries: NA (from 0 harnesses)
+============================================================
