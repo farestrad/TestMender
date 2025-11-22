@@ -1,0 +1,30 @@
+# Coverage (llvm-cov) for CWE122 — 2025-11-21 22:31:52
+[2025-11-21 22:32:02] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11_harness.c | status=TIMEOUT | line_coverage=0.00%
+[2025-11-21 22:32:02] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:03] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_harness.c | status=OK | line_coverage=44.29%
+[2025-11-21 22:32:03] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17_harness.c | status=OK | line_coverage=30.00%
+[2025-11-21 22:32:04] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:32:04] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:04] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:05] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_harness.c | status=COV_FAIL | line_coverage=-
+[2025-11-21 22:32:05] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_harness.c | status=OK | line_coverage=0.00%
+[2025-11-21 22:32:05] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:06] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_harness.c | status=OK | line_coverage=50.00%
+[2025-11-21 22:32:06] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:07] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13_harness.c | status=OK | line_coverage=26.67%
+[2025-11-21 22:32:07] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09_harness.c | status=OK | line_coverage=33.33%
+[2025-11-21 22:32:07] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_harness.c | status=OK | line_coverage=16.67%
+[2025-11-21 22:32:08] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68a_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:08] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:08] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21_harness.c | status=OK | line_coverage=44.44%
+[2025-11-21 22:32:09] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22b_harness.c | status=COMPILE_FAIL | line_coverage=NA
+[2025-11-21 22:32:09] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE135_07_harness.c | status=OK | line_coverage=38.10%
+
+================ Coverage Summary (llvm-cov) ================
+OK (ran, coverage parsed): 11
+TIMEOUT / crash:          1
+COMPILE_FAIL:             8
+COV_FAIL (no report):     1
+
+Average line coverage over numeric entries: 30.32% (from 11 harnesses)
+============================================================
