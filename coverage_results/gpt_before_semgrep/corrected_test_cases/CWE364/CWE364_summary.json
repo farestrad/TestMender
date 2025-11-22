@@ -1,0 +1,381 @@
+{
+  "cwe": 364,
+  "timestamp": "2025-11-09T17:52:43.703030",
+  "total_files": 18,
+  "selected_files": 18,
+  "files": [
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_05.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_05_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_05_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_01.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "CWE364_Signal_Handler_Race_Condition__basic_01_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_01_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_10.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_10_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_10_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_02.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_02_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_02_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_03.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_03_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_03_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_15.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_15_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_15_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_17.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "CWE364_Signal_Handler_Race_Condition__basic_17_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_17_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_16.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "CWE364_Signal_Handler_Race_Condition__basic_16_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_16_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_11.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_11_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_11_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_18.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "CWE364_Signal_Handler_Race_Condition__basic_18_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_18_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_07.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_07_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_07_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_04.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_04_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_04_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_08.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_08_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_08_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_13.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_13_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_13_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_14.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_14_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_14_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_09.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_09_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_09_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_12.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "CWE364_Signal_Handler_Race_Condition__basic_12_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_12_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c",
+      "file_name": "CWE364_Signal_Handler_Race_Condition__basic_06.c",
+      "good_functions": [
+        "helperGood",
+        "good1",
+        "good2",
+        "CWE364_Signal_Handler_Race_Condition__basic_06_good",
+        "good"
+      ],
+      "bad_functions": [
+        "helperBad",
+        "CWE364_Signal_Handler_Race_Condition__basic_06_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}

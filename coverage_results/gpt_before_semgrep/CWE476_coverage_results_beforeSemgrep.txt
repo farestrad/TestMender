@@ -1,0 +1,84 @@
+Pair: CWE476_NULL_Pointer_Dereference__binary_if_07
+Lines executed:72.73%
+72.73%
+
+Pair: CWE476_NULL_Pointer_Dereference__binary_if_15
+Lines executed:72.73%
+72.73%
+
+Pair: CWE476_NULL_Pointer_Dereference__deref_after_check_01
+Lines executed:70.83%
+70.83%
+
+Pair: CWE476_NULL_Pointer_Dereference__deref_after_check_02
+Lines executed:72.73%
+72.73%
+
+Pair: CWE476_NULL_Pointer_Dereference__deref_after_check_08
+Lines executed:72.73%
+72.73%
+
+Pair: CWE476_NULL_Pointer_Dereference__int64_t_17
+Lines executed:72.73%
+72.73%
+
+Pair: CWE476_NULL_Pointer_Dereference__int64_t_51a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int64_t_51b
+Lines executed:60.00%
+60.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int64_t_54a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int64_t_54c
+Lines executed:0.00%
+0.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int64_t_66b
+Lines executed:60.00%
+60.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int_10
+Lines executed:70.83%
+70.83%
+
+Pair: CWE476_NULL_Pointer_Dereference__int_52b
+Lines executed:0.00%
+0.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int_53d
+Lines executed:60.00%
+60.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int_54b
+Lines executed:0.00%
+0.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__int_68b
+Lines executed:0.00%
+0.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__long_31
+Lines executed:72.73%
+72.73%
+
+Pair: CWE476_NULL_Pointer_Dereference__struct_07
+Lines executed:70.83%
+70.83%
+
+Pair: CWE476_NULL_Pointer_Dereference__struct_53c
+Lines executed:0.00%
+0.00%
+
+Pair: CWE476_NULL_Pointer_Dereference__wchar_t_52c
+Lines executed:60.00%
+60.00%
+
+----------------------------------------
+Total Pairs: 40
+Average Coverage: 44.44%
+----------------------------------------

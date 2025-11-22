@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-09T23:28:51.298054",
+  "selected_paths": [
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_22b.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_11.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_22a.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_09.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_41.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_01.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_41.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_63b.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_64a.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_12.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_66b.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_10.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_51b.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_64a.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_53d.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_51a.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_52c.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_44.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_52a.c",
+    "data/juliet/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_21.c"
+  ]
+}

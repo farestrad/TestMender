@@ -1,0 +1,379 @@
+{
+  "cwe": 122,
+  "timestamp": "2025-11-09T17:44:02.209000",
+  "total_files": 3656,
+  "selected_files": 20,
+  "files": [
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17.c",
+      "good_functions": [
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68a.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68a.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68b_goodG2BSink",
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68b_badSink",
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__CWE135_07.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__CWE135_07.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE122_Heap_Based_Buffer_Overflow__CWE135_07_good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__CWE135_07_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54a.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54a.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54b_goodG2BSink",
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54b_badSink",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_goodG2BSink",
+      "bad_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_goodG2BSink",
+      "bad_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_goodG2BSink",
+      "bad_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_goodG2BSink",
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_badSink",
+        "CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22b.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22b.c",
+      "good_functions": [
+        "goodG2B1",
+        "CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22_goodG2B1Source",
+        "goodG2B2",
+        "CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22_goodG2B2Source"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22_badSource"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B1",
+      "bad_sym": "CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22_badSource",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s07/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_goodG2BSink",
+      "bad_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s10/CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_goodG2BSink",
+      "bad_sym": "CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11_good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66a.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66a.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66b_goodG2BSink",
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66b_goodB2GSink",
+        "goodB2G",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66_good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66b_badSink",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_66b_goodG2BSink",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54a.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54a.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54b_goodG2BSink",
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54b_badSink",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s09/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52a.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52a.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52b_goodG2BSink",
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52b_badSink",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s05/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B1Source",
+        "goodG2B2",
+        "goodG2B2Source",
+        "CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21_good"
+      ],
+      "bad_functions": [
+        "badSource",
+        "CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s08/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52a.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52a.c",
+      "good_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52b_goodG2BSink",
+        "goodG2B",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52b_badSink",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE122_Heap_Based_Buffer_Overflow/s06/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11.c",
+      "file_name": "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11.c",
+      "good_functions": [
+        "goodB2G1",
+        "goodB2G2",
+        "goodG2B1",
+        "goodG2B2",
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_good"
+      ],
+      "bad_functions": [
+        "CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodB2G1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}

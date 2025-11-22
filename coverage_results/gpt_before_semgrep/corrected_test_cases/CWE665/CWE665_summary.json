@@ -1,0 +1,376 @@
+{
+  "cwe": 665,
+  "timestamp": "2025-11-09T23:28:51.301017",
+  "total_files": 225,
+  "selected_files": 20,
+  "files": [
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_22b.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_22b.c",
+      "good_functions": [
+        "goodG2B1",
+        "CWE665_Improper_Initialization__wchar_t_cat_22_goodG2B1Source",
+        "goodG2B2",
+        "CWE665_Improper_Initialization__wchar_t_cat_22_goodG2B2Source"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_22_badSource"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B1",
+      "bad_sym": "CWE665_Improper_Initialization__wchar_t_cat_22_badSource",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_11.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_ncat_11.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE665_Improper_Initialization__wchar_t_ncat_11_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_11_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_22a.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_22a.c",
+      "good_functions": [
+        "goodG2B1",
+        "CWE665_Improper_Initialization__wchar_t_cat_22_goodG2B1Source",
+        "goodG2B2",
+        "CWE665_Improper_Initialization__wchar_t_cat_22_goodG2B2Source",
+        "CWE665_Improper_Initialization__wchar_t_cat_22_good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_22_badSource",
+        "CWE665_Improper_Initialization__wchar_t_cat_22_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_09.c",
+      "file_name": "CWE665_Improper_Initialization__char_ncat_09.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE665_Improper_Initialization__char_ncat_09_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__char_ncat_09_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_41.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_41.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_41_goodG2BSink",
+        "goodG2B",
+        "CWE665_Improper_Initialization__wchar_t_cat_41_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_41_badSink",
+        "CWE665_Improper_Initialization__wchar_t_cat_41_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_01.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_01.c",
+      "good_functions": [
+        "goodG2B",
+        "CWE665_Improper_Initialization__wchar_t_cat_01_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_01_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_41.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_ncat_41.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_41_goodG2BSink",
+        "goodG2B",
+        "CWE665_Improper_Initialization__wchar_t_ncat_41_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_41_badSink",
+        "CWE665_Improper_Initialization__wchar_t_ncat_41_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_63b.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_ncat_63b.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_63b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_63b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE665_Improper_Initialization__wchar_t_ncat_63b_goodG2BSink",
+      "bad_sym": "CWE665_Improper_Initialization__wchar_t_ncat_63b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_64a.c",
+      "file_name": "CWE665_Improper_Initialization__char_ncat_64a.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__char_ncat_64b_goodG2BSink",
+        "goodG2B",
+        "CWE665_Improper_Initialization__char_ncat_64_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__char_ncat_64b_badSink",
+        "CWE665_Improper_Initialization__char_ncat_64_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_12.c",
+      "file_name": "CWE665_Improper_Initialization__char_cat_12.c",
+      "good_functions": [
+        "goodG2B",
+        "CWE665_Improper_Initialization__char_cat_12_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__char_cat_12_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_66b.c",
+      "file_name": "CWE665_Improper_Initialization__char_cat_66b.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__char_cat_66b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__char_cat_66b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE665_Improper_Initialization__char_cat_66b_goodG2BSink",
+      "bad_sym": "CWE665_Improper_Initialization__char_cat_66b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_10.c",
+      "file_name": "CWE665_Improper_Initialization__char_cat_10.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B2",
+        "CWE665_Improper_Initialization__char_cat_10_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__char_cat_10_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_51b.c",
+      "file_name": "CWE665_Improper_Initialization__char_ncat_51b.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__char_ncat_51b_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__char_ncat_51b_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE665_Improper_Initialization__char_ncat_51b_goodG2BSink",
+      "bad_sym": "CWE665_Improper_Initialization__char_ncat_51b_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_64a.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_64a.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_64b_goodG2BSink",
+        "goodG2B",
+        "CWE665_Improper_Initialization__wchar_t_cat_64_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_64b_badSink",
+        "CWE665_Improper_Initialization__wchar_t_cat_64_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_53d.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_ncat_53d.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_53d_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_53d_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE665_Improper_Initialization__wchar_t_ncat_53d_goodG2BSink",
+      "bad_sym": "CWE665_Improper_Initialization__wchar_t_ncat_53d_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_51a.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_ncat_51a.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_51b_goodG2BSink",
+        "goodG2B",
+        "CWE665_Improper_Initialization__wchar_t_ncat_51_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_ncat_51b_badSink",
+        "CWE665_Improper_Initialization__wchar_t_ncat_51_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_52c.c",
+      "file_name": "CWE665_Improper_Initialization__char_ncat_52c.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__char_ncat_52c_goodG2BSink"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__char_ncat_52c_badSink"
+      ],
+      "generated": "c_harness",
+      "good_sym": "CWE665_Improper_Initialization__char_ncat_52c_goodG2BSink",
+      "bad_sym": "CWE665_Improper_Initialization__char_ncat_52c_badSink",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_44.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_44.c",
+      "good_functions": [
+        "goodG2B",
+        "goodG2BSink",
+        "CWE665_Improper_Initialization__wchar_t_cat_44_good",
+        "good"
+      ],
+      "bad_functions": [
+        "badSink",
+        "CWE665_Improper_Initialization__wchar_t_cat_44_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_52a.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_52a.c",
+      "good_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_52b_goodG2BSink",
+        "goodG2B",
+        "CWE665_Improper_Initialization__wchar_t_cat_52_good",
+        "good"
+      ],
+      "bad_functions": [
+        "CWE665_Improper_Initialization__wchar_t_cat_52b_badSink",
+        "CWE665_Improper_Initialization__wchar_t_cat_52_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "good",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "file_path": "testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_21.c",
+      "file_name": "CWE665_Improper_Initialization__wchar_t_cat_21.c",
+      "good_functions": [
+        "goodG2B1",
+        "goodG2B1Source",
+        "goodG2B2",
+        "goodG2B2Source",
+        "CWE665_Improper_Initialization__wchar_t_cat_21_good"
+      ],
+      "bad_functions": [
+        "badSource",
+        "CWE665_Improper_Initialization__wchar_t_cat_21_bad",
+        "bad"
+      ],
+      "generated": "c_harness",
+      "good_sym": "goodG2B1",
+      "bad_sym": "bad",
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    }
+  ]
+}
