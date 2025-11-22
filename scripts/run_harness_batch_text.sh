@@ -27,7 +27,7 @@ fi
 
 CWE="$1"; shift || true
 MODE="both"
-OUT_PATH="harness_results/segrep_gpt/cwe${CWE}_results.txt"
+OUT_PATH="harness_results/gpt_cppcheck/cwe${CWE}_results.txt"
 APPEND=0
 TIMEOUT_SECS="15"
 
@@ -50,7 +50,7 @@ RUN="./scripts/run_harness.sh"
 # for gpt only generated test
 # GEN_DIR="generated_test_cases/CWE${CWE}"
 # for gpt+ semgrip generated test
-GEN_DIR="gpt_sem_generated_test/CWE${CWE}"
+GEN_DIR="gpt_cppcheck_generated_test/CWE${CWE}"
 
 [ -x "$RUN" ] || { echo "❌ Not executable or missing: $RUN"; exit 1; }
 [ -d "$GEN_DIR" ] || { echo "❌ No harness dir: $GEN_DIR"; exit 1; }

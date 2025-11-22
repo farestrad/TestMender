@@ -1,0 +1,46 @@
+# Results for CWE190 — 2025-11-22 16:30:02
+[2025-11-22 16:30:03] CWE=190 | harness=CWE190_Integer_Overflow__char_rand_add_54e_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__char_rand_add_54e_run.log
+[2025-11-22 16:30:04] CWE=190 | harness=CWE190_Integer_Overflow__char_rand_add_54e_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__char_rand_add_54e_run.log
+[2025-11-22 16:30:04] CWE=190 | harness=CWE190_Integer_Overflow__int64_t_fscanf_add_17_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int64_t_fscanf_add_17_run.log
+[2025-11-22 16:30:05] CWE=190 | harness=CWE190_Integer_Overflow__int64_t_fscanf_add_17_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int64_t_fscanf_add_17_run.log
+[2025-11-22 16:30:05] CWE=190 | harness=CWE190_Integer_Overflow__int64_t_rand_add_14_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int64_t_rand_add_14_run.log
+[2025-11-22 16:30:06] CWE=190 | harness=CWE190_Integer_Overflow__int64_t_rand_add_14_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int64_t_rand_add_14_run.log
+[2025-11-22 16:30:06] CWE=190 | harness=CWE190_Integer_Overflow__int_connect_socket_add_52a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-22 16:30:06] CWE=190 | harness=CWE190_Integer_Overflow__int_connect_socket_add_52a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-22 16:30:07] CWE=190 | harness=CWE190_Integer_Overflow__int_fgets_square_41_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int_fgets_square_41_run.log
+[2025-11-22 16:30:07] CWE=190 | harness=CWE190_Integer_Overflow__int_fgets_square_41_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int_fgets_square_41_run.log
+[2025-11-22 16:30:08] CWE=190 | harness=CWE190_Integer_Overflow__int_fscanf_preinc_44_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int_fscanf_preinc_44_run.log
+[2025-11-22 16:30:08] CWE=190 | harness=CWE190_Integer_Overflow__int_fscanf_preinc_44_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int_fscanf_preinc_44_run.log
+[2025-11-22 16:30:23] CWE=190 | harness=CWE190_Integer_Overflow__int_listen_socket_add_07_harness.c | mode=good | status=FAIL | asan=no | exit=142 | log=build/CWE190_Integer_Overflow__int_listen_socket_add_07_run.log
+[2025-11-22 16:30:39] CWE=190 | harness=CWE190_Integer_Overflow__int_listen_socket_add_07_harness.c | mode=bad | status=FAIL | asan=no | exit=142 | log=build/CWE190_Integer_Overflow__int_listen_socket_add_07_run.log
+[2025-11-22 16:30:39] CWE=190 | harness=CWE190_Integer_Overflow__int_max_add_67a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-22 16:30:39] CWE=190 | harness=CWE190_Integer_Overflow__int_max_add_67a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-22 16:30:40] CWE=190 | harness=CWE190_Integer_Overflow__int_rand_preinc_15_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int_rand_preinc_15_run.log
+[2025-11-22 16:30:40] CWE=190 | harness=CWE190_Integer_Overflow__int_rand_preinc_15_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__int_rand_preinc_15_run.log
+[2025-11-22 16:30:41] CWE=190 | harness=CWE190_Integer_Overflow__short_fscanf_preinc_67b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__short_fscanf_preinc_67b_run.log
+[2025-11-22 16:30:41] CWE=190 | harness=CWE190_Integer_Overflow__short_fscanf_preinc_67b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__short_fscanf_preinc_67b_run.log
+[2025-11-22 16:30:42] CWE=190 | harness=CWE190_Integer_Overflow__short_fscanf_square_51a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-22 16:30:42] CWE=190 | harness=CWE190_Integer_Overflow__short_fscanf_square_51a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-22 16:30:42] CWE=190 | harness=CWE190_Integer_Overflow__short_max_square_16_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__short_max_square_16_run.log
+[2025-11-22 16:30:43] CWE=190 | harness=CWE190_Integer_Overflow__short_max_square_16_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__short_max_square_16_run.log
+[2025-11-22 16:30:43] CWE=190 | harness=CWE190_Integer_Overflow__short_rand_multiply_16_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__short_rand_multiply_16_run.log
+[2025-11-22 16:30:44] CWE=190 | harness=CWE190_Integer_Overflow__short_rand_multiply_16_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__short_rand_multiply_16_run.log
+[2025-11-22 16:30:44] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_run.log
+[2025-11-22 16:30:45] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_65b_run.log
+[2025-11-22 16:30:45] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_run.log
+[2025-11-22 16:30:46] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_52c_run.log
+[2025-11-22 16:30:46] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_run.log
+[2025-11-22 16:30:47] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_61b_run.log
+[2025-11-22 16:30:48] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_max_multiply_04_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__unsigned_int_max_multiply_04_run.log
+[2025-11-22 16:30:49] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_max_multiply_04_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__unsigned_int_max_multiply_04_run.log
+[2025-11-22 16:30:49] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_run.log
+[2025-11-22 16:30:50] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE190_Integer_Overflow__unsigned_int_max_postinc_51b_run.log
+[2025-11-22 16:30:50] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_rand_add_10_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__unsigned_int_rand_add_10_run.log
+[2025-11-22 16:30:51] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_rand_add_10_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE190_Integer_Overflow__unsigned_int_rand_add_10_run.log
+[2025-11-22 16:30:51] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_rand_add_65a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-22 16:30:51] CWE=190 | harness=CWE190_Integer_Overflow__unsigned_int_rand_add_65a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+
+================ Summary ================
+GOOD: 9 / 20  (45.0%)  (clean runs expected)
+BAD:  0 / 20  (0.0%)   (ASan expected)
+=========================================
