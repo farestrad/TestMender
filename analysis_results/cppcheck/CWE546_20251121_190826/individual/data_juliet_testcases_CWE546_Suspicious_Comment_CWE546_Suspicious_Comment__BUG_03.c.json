@@ -1,0 +1,97 @@
+{
+  "tool": "cppcheck",
+  "cwe": "546",
+  "path": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c",
+  "findings": [
+    {
+      "id": "missingInclude",
+      "severity": "information",
+      "msg": "Include file: \"std_testcase.h\" not found.",
+      "verbose": "Include file: \"std_testcase.h\" not found.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c",
+          "line": "16",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "duplicateExpression",
+      "severity": "style",
+      "msg": "Same expression on both sides of '=='.",
+      "verbose": "Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct.",
+      "cwe": "398",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c",
+          "line": "22",
+          "column": "9",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "duplicateExpression",
+      "severity": "style",
+      "msg": "Same expression on both sides of '!='.",
+      "verbose": "Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct.",
+      "cwe": "398",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c",
+          "line": "39",
+          "column": "9",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "duplicateExpression",
+      "severity": "style",
+      "msg": "Same expression on both sides of '=='.",
+      "verbose": "Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct.",
+      "cwe": "398",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c",
+          "line": "54",
+          "column": "9",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__BUG_03_bad' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__BUG_03_bad' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c",
+          "line": "20",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__BUG_03_good' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__BUG_03_good' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c",
+          "line": "61",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}

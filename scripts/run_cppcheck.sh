@@ -90,12 +90,11 @@ for CWE in "$@"; do
 import xml.etree.ElementTree as ET
 import json
 import sys
-from pathlib import Path
 
 try:
     tree = ET.parse('$XML_OUTPUT')
     root = tree.getroot()
-    
+
     results = {
         'tool': 'cppcheck',
         'cwe': '$CWE',
@@ -103,7 +102,7 @@ try:
         'timestamp': '$TIMESTAMP',
         'findings': []
     }
-    
+
     for error in root.findall('.//error'):
         finding = {
             'id': error.get('id', ''),
@@ -113,7 +112,7 @@ try:
             'cwe': error.get('cwe', ''),
             'locations': []
         }
-        
+
         for location in error.findall('location'):
             finding['locations'].append({
                 'file': location.get('file', ''),
@@ -121,15 +120,15 @@ try:
                 'column': location.get('column', ''),
                 'info': location.get('info', '')
             })
-        
+
         results['findings'].append(finding)
-    
+
     with open('$JSON_OUTPUT', 'w') as f:
         json.dump(results, f, indent=2)
-    
+
     print(f"   ✅ Analysis complete")
     print(f"   📈 Found {len(results['findings'])} issue(s)")
-    
+
 except Exception as e:
     print(f"   ❌ Error converting XML to JSON: {e}", file=sys.stderr)
     sys.exit(1)
@@ -207,7 +206,7 @@ EOF
         ' "$JSON_OUTPUT" | head -20
       fi
 
-      # Per-file JSON split → individual/
+           # Per-file JSON split → individual/
       echo "------------------------------------------"
       echo "🗂  Writing per-file JSONs to: $INDIVIDUAL_DIR/"
 
@@ -216,25 +215,32 @@ EOF
         [[ -z "$f" ]] && continue
         safe_name="$(echo "$f" | tr '/ ' '__')"
         per_file="$INDIVIDUAL_DIR/${safe_name}.json"
-        
-        # Use separate jq call with explicit input file
-        jq --arg filepath "$f" '{
-          tool: .tool,
-          cwe: .cwe,
-          path: $filepath,
-          findings: [
-            .findings[]
-            | select(any(.locations[]?; .file == $filepath))
-          ]
-        }' "$JSON_OUTPUT" > "$per_file"
-        
-        # Only print if file has content
-        if [[ -s "$per_file" ]]; then
-          echo "   • $(basename "$per_file") ($(jq '.findings | length' "$per_file") findings)"
+
+        jq --arg filepath "$f" '
+          {
+            tool,
+            cwe,
+            path: $filepath,
+            findings: [
+              .findings[]
+              | select(
+                  # keep this finding if any of its locations has this exact file
+                  [ .locations[]?.file ] | index($filepath)
+                )
+            ]
+          }
+        ' "$JSON_OUTPUT" > "$per_file"
+
+        # Only keep non-empty files
+        if [[ "$(jq '.findings | length' "$per_file")" -gt 0 ]]; then
+          echo "   • $(basename "$per_file") ($(jq ".findings | length" "$per_file") findings)"
+        else
+          rm -f "$per_file"
         fi
       done <<< "$FILES_LIST"
 
       echo "------------------------------------------"
+
     else
       echo "   📈 Install 'jq' to see summaries, tables, and per-file outputs"
     fi

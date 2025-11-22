@@ -1,0 +1,22 @@
+{
+  "tool": "cppcheck",
+  "cwe": "364",
+  "path": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.c",
+  "findings": [
+    {
+      "id": "toomanyconfigs",
+      "severity": "information",
+      "msg": "Too many #ifdef configurations - cppcheck only checks 12 of 159 configurations. Use --force to check all configurations.",
+      "verbose": "The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time.",
+      "cwe": "398",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.c",
+          "line": "0",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}

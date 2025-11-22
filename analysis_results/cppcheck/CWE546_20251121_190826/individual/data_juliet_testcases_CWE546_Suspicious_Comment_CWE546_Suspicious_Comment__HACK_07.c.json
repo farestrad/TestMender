@@ -1,0 +1,97 @@
+{
+  "tool": "cppcheck",
+  "cwe": "546",
+  "path": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c",
+  "findings": [
+    {
+      "id": "missingInclude",
+      "severity": "information",
+      "msg": "Include file: \"std_testcase.h\" not found.",
+      "verbose": "Include file: \"std_testcase.h\" not found.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c",
+          "line": "16",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'staticFive==5' is always true",
+      "verbose": "Condition 'staticFive==5' is always true",
+      "cwe": "571",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c",
+          "line": "27",
+          "column": "18",
+          "info": "Condition 'staticFive==5' is always true"
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'staticFive!=5' is always false",
+      "verbose": "Condition 'staticFive!=5' is always false",
+      "cwe": "570",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c",
+          "line": "44",
+          "column": "18",
+          "info": "Condition 'staticFive!=5' is always false"
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'staticFive==5' is always true",
+      "verbose": "Condition 'staticFive==5' is always true",
+      "cwe": "571",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c",
+          "line": "59",
+          "column": "18",
+          "info": "Condition 'staticFive==5' is always true"
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__HACK_07_bad' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__HACK_07_bad' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c",
+          "line": "25",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__HACK_07_good' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__HACK_07_good' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c",
+          "line": "66",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}

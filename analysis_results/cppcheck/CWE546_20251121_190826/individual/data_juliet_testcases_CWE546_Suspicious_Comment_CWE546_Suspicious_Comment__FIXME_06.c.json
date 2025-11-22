@@ -1,0 +1,115 @@
+{
+  "tool": "cppcheck",
+  "cwe": "546",
+  "path": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+  "findings": [
+    {
+      "id": "missingInclude",
+      "severity": "information",
+      "msg": "Include file: \"std_testcase.h\" not found.",
+      "verbose": "Include file: \"std_testcase.h\" not found.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "16",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "The comparison 'STATIC_CONST_FIVE == 5' is always true.",
+      "verbose": "Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct.",
+      "cwe": "398",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "27",
+          "column": "25",
+          "info": ""
+        },
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "21",
+          "column": "38",
+          "info": "'STATIC_CONST_FIVE' is assigned value '5' here."
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "The comparison 'STATIC_CONST_FIVE != 5' is always false.",
+      "verbose": "Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct.",
+      "cwe": "398",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "44",
+          "column": "25",
+          "info": ""
+        },
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "21",
+          "column": "38",
+          "info": "'STATIC_CONST_FIVE' is assigned value '5' here."
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "The comparison 'STATIC_CONST_FIVE == 5' is always true.",
+      "verbose": "Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct.",
+      "cwe": "398",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "59",
+          "column": "25",
+          "info": ""
+        },
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "21",
+          "column": "38",
+          "info": "'STATIC_CONST_FIVE' is assigned value '5' here."
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__FIXME_06_bad' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__FIXME_06_bad' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "25",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__FIXME_06_good' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__FIXME_06_good' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c",
+          "line": "66",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}

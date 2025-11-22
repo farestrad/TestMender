@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 159 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.c" line="0" column="0"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 163 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="0" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_01StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_01StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c" line="77" column="78" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_01StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_01StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_01StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c" line="117" column="79" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_01StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c" line="128" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c" line="169" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_02StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="128" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="169" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_03StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="48" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="95" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="141" column="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c" line="85" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c" line="134" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c" line="175" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_04StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c" line="85" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c" line="134" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c" line="175" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_05StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="84" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="133" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="174" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_06StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="53" column="25"/>
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="47" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="100" column="25"/>
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="47" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="146" column="25"/>
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="47" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="53" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="84" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="100" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="133" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="146" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="174" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_07StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticReturnsTrue()&apos; is always true" verbose="Condition &apos;staticReturnsTrue()&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="61" column="25" info="Condition &apos;staticReturnsTrue()&apos; is always true"/>
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="61" column="25" info="Calling function &apos;staticReturnsTrue&apos; returns 1"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="92" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticReturnsFalse()&apos; is always false" verbose="Condition &apos;staticReturnsFalse()&apos; is always false" cwe="570" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="108" column="26" info="Condition &apos;staticReturnsFalse()&apos; is always false"/>
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="108" column="26" info="Calling function &apos;staticReturnsFalse&apos; returns 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="141" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticReturnsTrue()&apos; is always true" verbose="Condition &apos;staticReturnsTrue()&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="154" column="25" info="Condition &apos;staticReturnsTrue()&apos; is always true"/>
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="154" column="25" info="Calling function &apos;staticReturnsTrue&apos; returns 1"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="182" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_08StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c" line="128" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c" line="169" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_09StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c" line="128" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c" line="169" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_10StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c" line="128" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c" line="169" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_11StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c" line="114" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c" line="159" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c" line="195" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_12StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c" line="128" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c" line="169" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c" line="128" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c" line="169" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_14StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c" line="80" column="78" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c" line="134" column="79" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c" line="177" column="79" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_15StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_16StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_16StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c" line="79" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_16StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_16StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_16StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c" line="124" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_16StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c" line="16" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_17StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_17StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c" line="80" column="82" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_17StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_17StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_17StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c" line="125" column="83" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_17StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;std_testcase.h&quot; not found." verbose="Include file: &quot;std_testcase.h&quot; not found.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c" line="16" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_18StructSigAtomicBad!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_18StructSigAtomicBad!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c" line="79" column="78" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_18StructSigAtomicBad!=NULL&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_18StructSigAtomicGood!=NULL&apos; is always true" verbose="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_18StructSigAtomicGood!=NULL&apos; is always true" cwe="571" file0="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c" line="122" column="79" info="Condition &apos;CWE364_Signal_Handler_Race_Condition__basic_18StructSigAtomicGood!=NULL&apos; is always true"/>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_01_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_01_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_01_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_01_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_01_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c" line="126" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_01_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_02_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_02_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_02_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_02_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_02_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c" line="179" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_02_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_03_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_03_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_03_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_03_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_03_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c" line="179" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_03_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_04_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_04_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c" line="52" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_04_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_04_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_04_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c" line="185" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_04_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_05_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_05_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c" line="52" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_05_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_05_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_05_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c" line="185" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_05_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_06_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_06_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="51" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_06_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_06_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_06_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c" line="184" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_06_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_07_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_07_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="51" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_07_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_07_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_07_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c" line="184" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_07_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_08_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_08_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="59" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_08_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_08_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_08_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c" line="192" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_08_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_09_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_09_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_09_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_09_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_09_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c" line="179" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_09_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_10_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_10_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_10_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_10_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_10_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c" line="179" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_10_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_11_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_11_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_11_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_11_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_11_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c" line="179" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_11_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_12_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_12_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_12_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_12_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_12_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c" line="205" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_12_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_13_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_13_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_13_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_13_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_13_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c" line="179" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_13_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_14_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_14_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_14_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_14_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_14_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c" line="179" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_14_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_15_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_15_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_15_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_15_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_15_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c" line="192" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_15_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_16_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_16_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_16_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_16_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_16_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c" line="135" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_16_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_17_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_17_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_17_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_17_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_17_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c" line="135" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_17_good</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_18_bad&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_18_bad&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c" line="46" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_18_bad</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_18_good&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;CWE364_Signal_Handler_Race_Condition__basic_18_good&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c" line="131" column="6"/>
+            <symbol>CWE364_Signal_Handler_Race_Condition__basic_18_good</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 169/966 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 169/966 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

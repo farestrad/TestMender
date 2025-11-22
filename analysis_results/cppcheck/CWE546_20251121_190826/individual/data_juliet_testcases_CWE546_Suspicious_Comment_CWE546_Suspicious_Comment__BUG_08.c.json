@@ -1,0 +1,115 @@
+{
+  "tool": "cppcheck",
+  "cwe": "546",
+  "path": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+  "findings": [
+    {
+      "id": "missingInclude",
+      "severity": "information",
+      "msg": "Include file: \"std_testcase.h\" not found.",
+      "verbose": "Include file: \"std_testcase.h\" not found.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "16",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'staticReturnsTrue()' is always true",
+      "verbose": "Condition 'staticReturnsTrue()' is always true",
+      "cwe": "571",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "35",
+          "column": "25",
+          "info": "Condition 'staticReturnsTrue()' is always true"
+        },
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "35",
+          "column": "25",
+          "info": "Calling function 'staticReturnsTrue' returns 1"
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'staticReturnsFalse()' is always false",
+      "verbose": "Condition 'staticReturnsFalse()' is always false",
+      "cwe": "570",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "52",
+          "column": "26",
+          "info": "Condition 'staticReturnsFalse()' is always false"
+        },
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "52",
+          "column": "26",
+          "info": "Calling function 'staticReturnsFalse' returns 0"
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'staticReturnsTrue()' is always true",
+      "verbose": "Condition 'staticReturnsTrue()' is always true",
+      "cwe": "571",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "67",
+          "column": "25",
+          "info": "Condition 'staticReturnsTrue()' is always true"
+        },
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "67",
+          "column": "25",
+          "info": "Calling function 'staticReturnsTrue' returns 1"
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__BUG_08_bad' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__BUG_08_bad' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "33",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__BUG_08_good' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__BUG_08_good' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_08.c",
+          "line": "74",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}

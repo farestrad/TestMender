@@ -1,0 +1,97 @@
+{
+  "tool": "cppcheck",
+  "cwe": "364",
+  "path": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+  "findings": [
+    {
+      "id": "missingInclude",
+      "severity": "information",
+      "msg": "Include file: \"std_testcase.h\" not found.",
+      "verbose": "Include file: \"std_testcase.h\" not found.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+          "line": "16",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicBad!=NULL' is always true",
+      "verbose": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicBad!=NULL' is always true",
+      "cwe": "571",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+          "line": "79",
+          "column": "82",
+          "info": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicBad!=NULL' is always true"
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL' is always true",
+      "verbose": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL' is always true",
+      "cwe": "571",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+          "line": "128",
+          "column": "83",
+          "info": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL' is always true"
+        }
+      ]
+    },
+    {
+      "id": "knownConditionTrueFalse",
+      "severity": "style",
+      "msg": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL' is always true",
+      "verbose": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL' is always true",
+      "cwe": "571",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+          "line": "169",
+          "column": "83",
+          "info": "Condition 'CWE364_Signal_Handler_Race_Condition__basic_13StructSigAtomicGood!=NULL' is always true"
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE364_Signal_Handler_Race_Condition__basic_13_bad' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE364_Signal_Handler_Race_Condition__basic_13_bad' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+          "line": "46",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE364_Signal_Handler_Race_Condition__basic_13_good' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE364_Signal_Handler_Race_Condition__basic_13_good' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c",
+          "line": "179",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}

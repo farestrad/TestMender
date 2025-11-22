@@ -1,0 +1,52 @@
+{
+  "tool": "cppcheck",
+  "cwe": "835",
+  "path": "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_empty_01.c",
+  "findings": [
+    {
+      "id": "missingInclude",
+      "severity": "information",
+      "msg": "Include file: \"std_testcase.h\" not found.",
+      "verbose": "Include file: \"std_testcase.h\" not found.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_empty_01.c",
+          "line": "6",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE835_Infinite_Loop__for_empty_01_bad' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE835_Infinite_Loop__for_empty_01_bad' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_empty_01.c",
+          "line": "10",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE835_Infinite_Loop__for_empty_01_good' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE835_Infinite_Loop__for_empty_01_good' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_empty_01.c",
+          "line": "43",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}

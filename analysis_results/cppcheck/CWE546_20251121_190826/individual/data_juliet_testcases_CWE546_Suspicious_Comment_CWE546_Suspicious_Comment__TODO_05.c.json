@@ -1,0 +1,52 @@
+{
+  "tool": "cppcheck",
+  "cwe": "546",
+  "path": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_05.c",
+  "findings": [
+    {
+      "id": "missingInclude",
+      "severity": "information",
+      "msg": "Include file: \"std_testcase.h\" not found.",
+      "verbose": "Include file: \"std_testcase.h\" not found.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_05.c",
+          "line": "16",
+          "column": "0",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__TODO_05_bad' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__TODO_05_bad' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_05.c",
+          "line": "26",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    },
+    {
+      "id": "staticFunction",
+      "severity": "style",
+      "msg": "The function 'CWE546_Suspicious_Comment__TODO_05_good' should have static linkage since it is not used outside of its translation unit.",
+      "verbose": "The function 'CWE546_Suspicious_Comment__TODO_05_good' should have static linkage since it is not used outside of its translation unit.",
+      "cwe": "",
+      "locations": [
+        {
+          "file": "data/juliet/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_05.c",
+          "line": "67",
+          "column": "6",
+          "info": ""
+        }
+      ]
+    }
+  ]
+}
