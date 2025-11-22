@@ -1,0 +1,46 @@
+# Results for CWE665 — 2025-11-21 19:27:12
+[2025-11-21 19:27:13] CWE=665 | harness=CWE665_Improper_Initialization__char_cat_10_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__char_cat_10_run.log
+[2025-11-21 19:27:13] CWE=665 | harness=CWE665_Improper_Initialization__char_cat_10_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE665_Improper_Initialization__char_cat_10_run.log
+[2025-11-21 19:27:14] CWE=665 | harness=CWE665_Improper_Initialization__char_cat_12_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__char_cat_12_run.log
+[2025-11-21 19:27:14] CWE=665 | harness=CWE665_Improper_Initialization__char_cat_12_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE665_Improper_Initialization__char_cat_12_run.log
+[2025-11-21 19:27:15] CWE=665 | harness=CWE665_Improper_Initialization__char_cat_66b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__char_cat_66b_run.log
+[2025-11-21 19:27:15] CWE=665 | harness=CWE665_Improper_Initialization__char_cat_66b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__char_cat_66b_run.log
+[2025-11-21 19:27:16] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_09_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__char_ncat_09_run.log
+[2025-11-21 19:27:16] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_09_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE665_Improper_Initialization__char_ncat_09_run.log
+[2025-11-21 19:27:17] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_51b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__char_ncat_51b_run.log
+[2025-11-21 19:27:17] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_51b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__char_ncat_51b_run.log
+[2025-11-21 19:27:18] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_52c_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__char_ncat_52c_run.log
+[2025-11-21 19:27:18] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_52c_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__char_ncat_52c_run.log
+[2025-11-21 19:27:19] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_64a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:19] CWE=665 | harness=CWE665_Improper_Initialization__char_ncat_64a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:20] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_01_run.log
+[2025-11-21 19:27:20] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_01_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_01_run.log
+[2025-11-21 19:27:20] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_21_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_21_run.log
+[2025-11-21 19:27:21] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_21_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_21_run.log
+[2025-11-21 19:27:21] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_22a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:22] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_22a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:22] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_22b_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:22] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_22b_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:23] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_41_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_41_run.log
+[2025-11-21 19:27:24] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_41_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_41_run.log
+[2025-11-21 19:27:25] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_44_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_44_run.log
+[2025-11-21 19:27:25] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_44_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_cat_44_run.log
+[2025-11-21 19:27:26] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_52a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:26] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_52a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:26] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_64a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:27] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_cat_64a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:27] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_11_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_11_run.log
+[2025-11-21 19:27:28] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_11_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_11_run.log
+[2025-11-21 19:27:28] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_41_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_41_run.log
+[2025-11-21 19:27:29] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_41_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_41_run.log
+[2025-11-21 19:27:29] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_51a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:29] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_51a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-21 19:27:30] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_53d_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_53d_run.log
+[2025-11-21 19:27:30] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_53d_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_53d_run.log
+[2025-11-21 19:27:31] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_63b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_63b_run.log
+[2025-11-21 19:27:31] CWE=665 | harness=CWE665_Improper_Initialization__wchar_t_ncat_63b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE665_Improper_Initialization__wchar_t_ncat_63b_run.log
+
+================ Summary ================
+GOOD: 9 / 20  (45.0%)  (clean runs expected)
+BAD:  4 / 20  (20.0%)   (ASan expected)
+=========================================
