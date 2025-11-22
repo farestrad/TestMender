@@ -1,0 +1,84 @@
+Pair: CWE665_Improper_Initialization__char_cat_10
+Lines executed:63.64%
+63.64%
+
+Pair: CWE665_Improper_Initialization__char_cat_12
+Lines executed:61.54%
+61.54%
+
+Pair: CWE665_Improper_Initialization__char_cat_66b
+Lines executed:62.50%
+62.50%
+
+Pair: CWE665_Improper_Initialization__char_ncat_09
+Lines executed:63.64%
+63.64%
+
+Pair: CWE665_Improper_Initialization__char_ncat_51b
+Lines executed:61.54%
+61.54%
+
+Pair: CWE665_Improper_Initialization__char_ncat_52c
+Lines executed:60.00%
+60.00%
+
+Pair: CWE665_Improper_Initialization__char_ncat_64a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_01
+Lines executed:63.64%
+63.64%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_21
+Lines executed:63.64%
+63.64%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_22a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_22b
+Lines executed:0.00%
+0.00%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_41
+Lines executed:61.54%
+61.54%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_44
+Lines executed:63.64%
+63.64%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_52a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE665_Improper_Initialization__wchar_t_cat_64a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE665_Improper_Initialization__wchar_t_ncat_11
+Lines executed:61.54%
+61.54%
+
+Pair: CWE665_Improper_Initialization__wchar_t_ncat_41
+Lines executed:63.64%
+63.64%
+
+Pair: CWE665_Improper_Initialization__wchar_t_ncat_51a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE665_Improper_Initialization__wchar_t_ncat_53d
+Lines executed:0.00%
+0.00%
+
+Pair: CWE665_Improper_Initialization__wchar_t_ncat_63b
+Lines executed:64.29%
+64.29%
+
+----------------------------------------
+Total Pairs: 40
+Average Coverage: 40.74%
+----------------------------------------

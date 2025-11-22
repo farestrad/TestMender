@@ -1,0 +1,84 @@
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_05
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_06
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_11
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_54b
+Lines executed:0.00%
+0.00%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_snprintf_41
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_65b
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_ncpy_07
+Lines executed:63.64%
+63.64%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_42
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_63b
+Lines executed:58.82%
+58.82%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_11
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_66a
+Lines executed:0.00%
+0.00%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_41
+Lines executed:61.54%
+61.54%
+
+Pair: CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c
+Lines executed:0.00%
+0.00%
+
+----------------------------------------
+Total Pairs: 40
+Average Coverage: 53.01%
+----------------------------------------
