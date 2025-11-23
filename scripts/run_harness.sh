@@ -272,7 +272,8 @@ run_with_timeout() {
 # ---- Paths ----
 JULIET_BASE="data/juliet/testcases"
 SUPPORT_DIR="data/juliet/testcasesupport"
-HAR_PATH="generated_test_cases/CWE${CWE}/${HARNESS_NAME}"
+HARNESS_BASE_DIR="${HARNESS_BASE_DIR:-generated_test_cases}"
+HAR_PATH="${HARNESS_BASE_DIR}/CWE${CWE}/${HARNESS_NAME}"
 BUILD_DIR="build"
 mkdir -p "$BUILD_DIR"
 
