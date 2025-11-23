@@ -1,0 +1,28 @@
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+void CWE546_Suspicious_Comment__TODO_03_bad(void);
+void CWE546_Suspicious_Comment__TODO_03_good(void);
+
+void run_bad(void) {
+    printf("Running BAD case...\n");
+    CWE546_Suspicious_Comment__TODO_03_bad();
+    printf("Finished BAD case.\n");
+}
+
+void run_good(void) {
+    printf("Running GOOD case...\n");
+    CWE546_Suspicious_Comment__TODO_03_good();
+    printf("Finished GOOD case.\n");
+}
+
+int main(void) {
+#ifdef TEST_MODE_BAD
+    run_bad();
+#else
+    run_good();
+#endif
+    return 0;
+}
+```

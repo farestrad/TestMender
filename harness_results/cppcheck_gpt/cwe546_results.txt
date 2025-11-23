@@ -1,0 +1,46 @@
+# Results for CWE546 — 2025-11-23 14:01:13
+[2025-11-23 14:01:43] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_02_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_02_run.log
+[2025-11-23 14:02:14] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_02_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_02_run.log
+[2025-11-23 14:02:44] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_07_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_07_run.log
+[2025-11-23 14:03:13] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_07_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_07_run.log
+[2025-11-23 14:03:42] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_09_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_09_run.log
+[2025-11-23 14:04:12] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_09_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_09_run.log
+[2025-11-23 14:04:42] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_16_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_16_run.log
+[2025-11-23 14:05:10] CWE=546 | harness=CWE546_Suspicious_Comment__BUG_16_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__BUG_16_run.log
+[2025-11-23 14:05:39] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_01_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__FIXME_01_run.log
+[2025-11-23 14:06:08] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_01_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__FIXME_01_run.log
+[2025-11-23 14:06:37] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_06_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__FIXME_06_run.log
+[2025-11-23 14:07:06] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_06_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__FIXME_06_run.log
+[2025-11-23 14:07:35] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_16_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__FIXME_16_run.log
+[2025-11-23 14:08:04] CWE=546 | harness=CWE546_Suspicious_Comment__FIXME_16_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__FIXME_16_run.log
+[2025-11-23 14:08:32] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_02_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_02_run.log
+[2025-11-23 14:09:01] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_02_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_02_run.log
+[2025-11-23 14:09:29] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_04_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_04_run.log
+[2025-11-23 14:09:58] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_04_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_04_run.log
+[2025-11-23 14:10:27] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_09_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_09_run.log
+[2025-11-23 14:10:56] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_09_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_09_run.log
+[2025-11-23 14:11:25] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_13_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_13_run.log
+[2025-11-23 14:11:54] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_13_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_13_run.log
+[2025-11-23 14:12:22] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_14_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_14_run.log
+[2025-11-23 14:12:51] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_14_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_14_run.log
+[2025-11-23 14:13:20] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_15_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_15_run.log
+[2025-11-23 14:13:49] CWE=546 | harness=CWE546_Suspicious_Comment__HACK_15_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__HACK_15_run.log
+[2025-11-23 14:14:17] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_02_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__LATER_02_run.log
+[2025-11-23 14:14:46] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_02_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__LATER_02_run.log
+[2025-11-23 14:15:14] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_03_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__LATER_03_run.log
+[2025-11-23 14:15:42] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_03_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__LATER_03_run.log
+[2025-11-23 14:16:12] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_18_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__LATER_18_run.log
+[2025-11-23 14:16:41] CWE=546 | harness=CWE546_Suspicious_Comment__LATER_18_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__LATER_18_run.log
+[2025-11-23 14:17:10] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_03_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_03_run.log
+[2025-11-23 14:17:40] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_03_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_03_run.log
+[2025-11-23 14:18:08] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_04_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_04_run.log
+[2025-11-23 14:18:37] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_04_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_04_run.log
+[2025-11-23 14:19:07] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_05_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_05_run.log
+[2025-11-23 14:19:36] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_05_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_05_run.log
+[2025-11-23 14:20:05] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_14_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_14_run.log
+[2025-11-23 14:20:34] CWE=546 | harness=CWE546_Suspicious_Comment__TODO_14_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE546_Suspicious_Comment__TODO_14_run.log
+
+================ Summary ================
+GOOD: 20 / 20  (100.0%)  (clean runs expected)
+BAD:  0 / 20  (0.0%)   (ASan expected)
+=========================================

@@ -1,0 +1,46 @@
+# Results for CWE122 — 2025-11-23 12:58:52
+[2025-11-23 12:59:21] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21_run.log
+[2025-11-23 12:59:52] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_21_run.log
+[2025-11-23 13:00:21] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22b_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:00:49] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_22b_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:01:18] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE135_07_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__CWE135_07_run.log
+[2025-11-23 13:01:47] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__CWE135_07_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__CWE135_07_run.log
+[2025-11-23 13:02:17] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11_run.log
+[2025-11-23 13:02:46] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_11_run.log
+[2025-11-23 13:02:46] CWE=122 | harness=22_Heap_Based_Buffer_Overflow__c_CWE129_large_66a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:02:46] CWE=122 | harness=22_Heap_Based_Buffer_Overflow__c_CWE129_large_66a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:03:13] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_run.log
+[2025-11-23 13:03:42] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_11_run.log
+[2025-11-23 13:04:11] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17_run.log
+[2025-11-23 13:04:39] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_17_run.log
+[2025-11-23 13:05:07] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_run.log
+[2025-11-23 13:05:36] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_65b_run.log
+[2025-11-23 13:06:04] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:06:33] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_54a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:07:02] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:07:30] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:07:58] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_run.log
+[2025-11-23 13:08:27] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_54e_run.log
+[2025-11-23 13:08:55] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_run.log
+[2025-11-23 13:09:24] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_64b_run.log
+[2025-11-23 13:09:53] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:10:21] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:10:50] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_run.log
+[2025-11-23 13:11:18] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_53d_run.log
+[2025-11-23 13:11:46] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:12:14] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_52a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:12:43] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13_run.log
+[2025-11-23 13:13:11] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_13_run.log
+[2025-11-23 13:13:42] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09_run.log
+[2025-11-23 13:14:14] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09_harness.c | mode=bad | status=FAIL | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_09_run.log
+[2025-11-23 13:14:46] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_harness.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_run.log
+[2025-11-23 13:15:19] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_harness.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_41_run.log
+[2025-11-23 13:15:51] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68a_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:16:23] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_68a_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 13:16:57] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_harness.c | mode=good | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_run.log
+[2025-11-23 13:17:29] CWE=122 | harness=CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_harness.c | mode=bad | status=FAIL | asan=no | exit=133 | log=build/CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_67b_run.log
+
+================ Summary ================
+GOOD: 8 / 20  (40.0%)  (clean runs expected)
+BAD:  4 / 20  (20.0%)   (ASan expected)
+=========================================
