@@ -1,4 +1,4 @@
-```c
+
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
@@ -49,5 +49,3 @@ int main(void) {
     run_good();
 #endif
     return 0;
-}
-```

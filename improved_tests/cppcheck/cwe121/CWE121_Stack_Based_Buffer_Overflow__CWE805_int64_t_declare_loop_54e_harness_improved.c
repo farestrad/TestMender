@@ -1,4 +1,4 @@
-```c
+
 #include "std_testcase.h"
 #include <stdio.h>
 #include <stdint.h>
@@ -37,4 +37,3 @@ int main(void) {
 #endif
     return 0;
 }
-```
