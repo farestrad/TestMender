@@ -1,0 +1,47 @@
+# Improved results for CWE476 (cppcheck) — 2025-11-23 22:14:05
+[2025-11-23 22:14:05] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__binary_if_07_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:05] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__binary_if_07_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:06] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__binary_if_15_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:06] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__binary_if_15_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:07] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_01_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:07] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_01_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:08] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_02_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:08] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_02_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:08] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_08_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:09] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_08_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:09] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_17_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:10] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_17_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:10] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_51a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:11] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_51a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:11] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_51b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:11] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_51b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:12] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_54a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:12] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_54a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:13] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_54c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:13] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_54c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:14] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_66b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:14] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int64_t_66b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:14] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_10_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:15] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_10_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:15] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_52b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:16] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_52b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:16] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_53d_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:17] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_53d_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:17] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_54b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:18] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_54b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:18] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_68b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:18] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__int_68b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:19] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__long_31_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:19] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__long_31_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:20] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__struct_07_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:20] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__struct_07_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:20] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__struct_53c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:21] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__struct_53c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:21] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__wchar_t_52c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:22] CWE=476 | tool=cppcheck | harness=CWE476_NULL_Pointer_Dereference__wchar_t_52c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+
+================ Summary (improved tests) ================
+TOOL: cppcheck
+GOOD: 0 / 20  (0.0%)  (clean runs expected)
+BAD:  0 / 20  (0.0%)   (ASan expected)
+=========================================================

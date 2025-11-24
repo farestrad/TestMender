@@ -1,0 +1,2 @@
+{"harness":"CWE190_Integer_Overflow__char_rand_add_54e_harness_improved.c","tool":"semgrep","mode":"both","good_status":"FAIL","good_exit":"1","bad_status":"FAIL","bad_exit":"1","validated":false,"reason":"good_failed"}
+{"harness":"CWE190_Integer_Overflow__int_connect_socket_add_52a_harness_improved.c","tool":"semgrep","mode":"both","good_status":"FAIL","good_exit":"1","bad_status":"FAIL","bad_exit":"1","validated":false,"reason":"good_failed"}
