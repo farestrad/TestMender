@@ -1,39 +1,39 @@
-# Improved results for CWE121 (cppcheck) — 2025-11-23 22:13:35
-[2025-11-23 22:13:35] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:36] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:36] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:36] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:37] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:37] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:38] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:38] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:39] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:39] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:40] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:40] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:40] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_11_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:41] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_11_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:41] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_54b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:42] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_54b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:42] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:43] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:43] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_65b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:44] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_65b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:44] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_42_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:44] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_42_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:45] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_63b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:45] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_63b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:46] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_11_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:46] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_11_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:47] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_66a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:47] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_66a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:47] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_41_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:48] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_41_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:48] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
-[2025-11-23 22:13:49] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+# Improved results for CWE121 (cppcheck) — 2025-11-24 12:38:27
+[2025-11-24 12:38:57] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness_improved.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_run_good.log
+[2025-11-24 12:39:25] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness_improved.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_run_bad.log
+[2025-11-24 12:39:54] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness_improved.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_run_good.log
+[2025-11-24 12:40:23] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness_improved.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_run_bad.log
+[2025-11-24 12:40:53] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness_improved.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_run_good.log
+[2025-11-24 12:41:23] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness_improved.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_run_bad.log
+[2025-11-24 12:41:52] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness_improved.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_run_good.log
+[2025-11-24 12:42:21] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness_improved.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_run_bad.log
+[2025-11-24 12:42:50] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08_harness_improved.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08_run_good.log
+[2025-11-24 12:43:20] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08_harness_improved.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_08_run_bad.log
+[2025-11-24 12:43:49] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e_harness_improved.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e_run_good.log
+[2025-11-24 12:44:18] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e_harness_improved.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_54e_run_bad.log
+[2025-11-24 12:44:47] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_11_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:45:16] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_11_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:45:45] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_54b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:46:14] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_54b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:46:43] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15_harness_improved.c | mode=good | status=PASS | asan=no | exit=0 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15_run_good.log
+[2025-11-24 12:47:12] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15_harness_improved.c | mode=bad | status=PASS | asan=yes | exit=134 | log=build/CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_15_run_bad.log
+[2025-11-24 12:47:41] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_65b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:48:10] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_65b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:48:38] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_42_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:49:08] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_42_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:49:38] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_63b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:50:07] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_63b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:50:36] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_11_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:51:05] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_11_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:51:34] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_66a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:52:04] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_66a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:52:33] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_41_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:53:02] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_41_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:53:31] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-24 12:54:00] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
 
 ================ Summary (improved tests) ================
 TOOL: cppcheck
-GOOD: 0 / 16  (0.0%)  (clean runs expected)
-BAD:  0 / 16  (0.0%)   (ASan expected)
+GOOD: 7 / 16  (43.8%)  (clean runs expected)
+BAD:  7 / 16  (43.8%)   (ASan expected)
 =========================================================
