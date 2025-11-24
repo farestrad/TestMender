@@ -1,0 +1,9 @@
+# Improved results for CWE121 (cppcheck) — 2025-11-23 19:13:41
+[2025-11-23 19:15:06] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 19:16:31] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 19:17:57] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 19:19:22] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 19:20:48] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 19:22:12] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 19:23:37] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 19:25:03] CWE=121 | tool=cppcheck | harness=CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=

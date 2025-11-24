@@ -1,0 +1,4 @@
+{"harness":"CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_67b_harness_improved.c","tool":"cppcheck","mode":"both","good_status":"FAIL","good_exit":"1","bad_status":"FAIL","bad_exit":"1","validated":false,"reason":"good_failed"}
+{"harness":"CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_15_harness_improved.c","tool":"cppcheck","mode":"both","good_status":"FAIL","good_exit":"1","bad_status":"FAIL","bad_exit":"1","validated":false,"reason":"good_failed"}
+{"harness":"CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_04_harness_improved.c","tool":"cppcheck","mode":"both","good_status":"FAIL","good_exit":"1","bad_status":"FAIL","bad_exit":"1","validated":false,"reason":"good_failed"}
+{"harness":"CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_13_harness_improved.c","tool":"cppcheck","mode":"both","good_status":"FAIL","good_exit":"1","bad_status":"FAIL","bad_exit":"1","validated":false,"reason":"good_failed"}
