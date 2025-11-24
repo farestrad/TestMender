@@ -1,0 +1,4 @@
+{"harness":"CWE835_Infinite_Loop__do_01_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"124","validated":true,"reason":"validated"}
+{"harness":"CWE835_Infinite_Loop__for_01_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"124","validated":true,"reason":"validated"}
+{"harness":"CWE835_Infinite_Loop__while_01_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"124","validated":true,"reason":"validated"}
+{"harness":"CWE835_Infinite_Loop__while_true_01_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"124","validated":true,"reason":"validated"}

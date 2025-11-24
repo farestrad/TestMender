@@ -1,0 +1,6 @@
+{"harness":"CWE190_Integer_Overflow__char_rand_add_54e_harness.c","mode":"both","good_status":"FAIL","good_exit":"133","bad_status":"FAIL","bad_exit":"133","validated":false,"reason":"good_failed"}
+{"harness":"CWE190_Integer_Overflow__int64_t_fscanf_add_17_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"0","validated":true,"reason":"validated"}
+{"harness":"CWE190_Integer_Overflow__int64_t_rand_add_14_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"0","validated":true,"reason":"validated"}
+{"harness":"CWE190_Integer_Overflow__int_connect_socket_add_52a_harness.c","mode":"both","good_status":"FAIL","good_exit":"1","bad_status":"FAIL","bad_exit":"1","validated":false,"reason":"good_failed"}
+{"harness":"CWE190_Integer_Overflow__int_fgets_square_41_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"0","validated":true,"reason":"validated"}
+{"harness":"CWE190_Integer_Overflow__int_fscanf_preinc_44_harness.c","mode":"both","good_status":"PASS","good_exit":"0","bad_status":"FAIL","bad_exit":"0","validated":true,"reason":"validated"}

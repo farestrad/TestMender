@@ -40,7 +40,8 @@
 [2025-11-22 16:16:44] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c_harness.c | mode=good | status=FAIL | asan=no | exit=1 | log=
 [2025-11-22 16:16:44] CWE=121 | harness=CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_54c_harness.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
 
-================ Summary ================
+================ Summary ============git pull --rebase
+====
 GOOD: 13 / 20  (65.0%)  (clean runs expected)
 BAD:  9 / 20  (45.0%)   (ASan expected)
 =========================================
