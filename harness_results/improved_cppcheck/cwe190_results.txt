@@ -1,0 +1,11 @@
+# Improved results for CWE190 (cppcheck) — 2025-11-23 22:14:03
+[2025-11-23 22:14:03] CWE=190 | tool=cppcheck | harness=CWE190_Integer_Overflow__char_rand_add_54e_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:04] CWE=190 | tool=cppcheck | harness=CWE190_Integer_Overflow__char_rand_add_54e_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:04] CWE=190 | tool=cppcheck | harness=CWE190_Integer_Overflow__int_connect_socket_add_52a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:05] CWE=190 | tool=cppcheck | harness=CWE190_Integer_Overflow__int_connect_socket_add_52a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+
+================ Summary (improved tests) ================
+TOOL: cppcheck
+GOOD: 0 / 2  (0.0%)  (clean runs expected)
+BAD:  0 / 2  (0.0%)   (ASan expected)
+=========================================================

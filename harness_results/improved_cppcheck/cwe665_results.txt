@@ -1,0 +1,39 @@
+# Improved results for CWE665 (cppcheck) — 2025-11-23 22:14:22
+[2025-11-23 22:14:22] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_cat_10_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:23] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_cat_10_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:23] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_cat_12_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:23] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_cat_12_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:24] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_cat_66b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:24] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_cat_66b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:25] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_ncat_51b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:25] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_ncat_51b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:26] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_ncat_52c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:26] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_ncat_52c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:26] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_ncat_64a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:27] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__char_ncat_64a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:27] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_01_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:28] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_01_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:28] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_21_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:29] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_21_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:29] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_22a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:29] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_22a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:30] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_22b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:30] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_22b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:31] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_52a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:31] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_52a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:32] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_64a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:32] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_cat_64a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:32] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_11_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:33] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_11_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:33] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_51a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:34] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_51a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:34] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_53d_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:35] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_53d_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:35] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_63b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:14:36] CWE=665 | tool=cppcheck | harness=CWE665_Improper_Initialization__wchar_t_ncat_63b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+
+================ Summary (improved tests) ================
+TOOL: cppcheck
+GOOD: 0 / 16  (0.0%)  (clean runs expected)
+BAD:  0 / 16  (0.0%)   (ASan expected)
+=========================================================

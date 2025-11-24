@@ -1,0 +1,47 @@
+# Improved results for CWE476 (semgrep) — 2025-11-23 22:17:30
+[2025-11-23 22:17:30] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__binary_if_07_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:31] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__binary_if_07_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:31] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__binary_if_15_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:32] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__binary_if_15_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:32] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_01_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:33] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_01_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:33] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_02_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:33] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_02_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:34] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_08_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:34] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__deref_after_check_08_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:35] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_17_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:35] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_17_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:36] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_51a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:36] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_51a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:36] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_51b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:37] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_51b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:37] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_54a_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:38] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_54a_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:38] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_54c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:39] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_54c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:39] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_66b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:40] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int64_t_66b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:40] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_10_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:40] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_10_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:41] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_52b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:41] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_52b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:42] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_53d_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:42] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_53d_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:43] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_54b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:43] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_54b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:44] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_68b_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:44] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__int_68b_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:44] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__long_31_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:45] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__long_31_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:45] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__struct_07_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:46] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__struct_07_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:46] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__struct_53c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:47] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__struct_53c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:47] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__wchar_t_52c_harness_improved.c | mode=good | status=FAIL | asan=no | exit=1 | log=
+[2025-11-23 22:17:48] CWE=476 | tool=semgrep | harness=CWE476_NULL_Pointer_Dereference__wchar_t_52c_harness_improved.c | mode=bad | status=FAIL | asan=no | exit=1 | log=
+
+================ Summary (improved tests) ================
+TOOL: semgrep
+GOOD: 0 / 20  (0.0%)  (clean runs expected)
+BAD:  0 / 20  (0.0%)   (ASan expected)
+=========================================================
