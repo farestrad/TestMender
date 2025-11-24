@@ -1,4 +1,4 @@
-```c
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -34,4 +34,3 @@ int main(void) {
 #endif
     return 0;
 }
-```

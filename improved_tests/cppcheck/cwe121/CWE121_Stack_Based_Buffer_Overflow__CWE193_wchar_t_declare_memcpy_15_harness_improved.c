@@ -1,4 +1,4 @@
-```c
+
 #include <stdio.h>
 #include <wchar.h>
 #include <stdlib.h>
@@ -46,4 +46,3 @@ int main(void) {
 #endif
     return 0;
 }
-```
