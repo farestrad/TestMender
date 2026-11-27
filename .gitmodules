@@ -1,3 +1,7 @@
 [submodule "tools/semgrep-rules"]
 	path = tools/semgrep-rules
 	url = https://github.com/semgrep/semgrep-rules
+
+[submodule "data/juliet"]
+	path = data/juliet
+	url = https://github.com/arichardson/juliet-test-suite-c.git

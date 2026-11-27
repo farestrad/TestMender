@@ -60,34 +60,46 @@ Flawfinder is installed via pip (included in requirements.txt). Verify installat
 flawfinder --version
 ```
 
-### 6. Setup Juliet Test Suite
-```bash
-# Clone the Juliet dataset (git-ignored)
-scripts/setup_juliet.sh
+### 6. Fetch and rebuild the pinned Juliet Test Suite
 
-# Build test cases (this will take several minutes)
-cd data/juliet
-python3 juliet.py -a -g -m -k
+Requires Git, Python 3, CMake, Make and a C/C++ compiler (see system dependencies above).
+A normal Git clone or GitHub ZIP download works; the setup command downloads the
+source revision pinned by `scripts/rebuild_juliet.py` from upstream over HTTPS.
+No API keys are needed for this build.
+
+```bash
+bash scripts/setup_juliet.sh
+# Small compile-only check first:
+python3 scripts/rebuild_juliet.py 546 --jobs 2
+# Select the categories needed for your work:
+python3 scripts/rebuild_juliet.py 121 122 --jobs 2
+# Or attempt every category (can take substantial time and disk space):
+python3 scripts/rebuild_juliet.py --all --jobs 2
 ```
 
-### 7. Verify setup
-```bash
-# Run automated verification (from project root directory)
-scripts/verify_setup.sh
-```
+Commands resolve paths relative to the project, so they also work from another
+working directory when invoked by absolute path. An existing dataset must match
+the pinned revision and have no tracked edits; setup never pulls, resets or deletes
+existing files. If it reports a mismatch, preserve the existing dataset and build
+in a fresh project download. Recursive Git clones also use the corrected pinned
+Juliet submodule entry.
 
-**Important:** Always run the verification script from the project root directory, not from inside the `scripts/` folder.
+Binaries are written to `data/juliet/bin/CWE*/good/` and `bad/`; intermediate
+build files go under `build/juliet/`. Category `CMakeLists.txt` files are copied
+from Juliet's tracked template. These generated files do not need to be published.
+The source pin matches the local dataset used to produce the original artifacts;
+compiler/OS differences mean binaries are not guaranteed to be byte-identical.
 
-**Manual verification** (if needed):
-```bash
-# Test that executables work
-cd data/juliet/bin/CWE121/good
-echo "5" | ./CWE121_Stack_Based_Buffer_Overflow__CWE129_fgets_01-good
+Juliet deliberately contains vulnerable programs. The new setup/build commands
+only fetch and compile; they never run those programs or require elevated rights.
+Use an isolated disposable environment for execution. The legacy
+`scripts/verify_setup.sh` and upstream `juliet.py -r` **execute test programs**;
+they are not required to verify a build. Build without credentials in the
+environment when practical. Do not use `sudo` for the build.
 
-cd ../bad  
-echo "15" | ./CWE121_Stack_Based_Buffer_Overflow__CWE129_fgets_01-bad
-# Should crash with exit code 134 (buffer overflow)
-```
+A category may fail on a different platform or compiler. The builder continues
+through selected categories, lists failures and exits nonzero if any fail.
+A successful category build confirms compilation, not vulnerability detection.
 
 ## 🔍 Static Analysis Tools
 
@@ -189,26 +201,19 @@ flawfinder --minlevel=1 . > flawfinder_results.txt
 - **Source code**: `data/juliet/testcases/CWE*/s*/`
 
 ## 🔧 Build Process
-The Juliet test suite is built using:
-- **CMake** for build configuration
-- **Make** for compilation
-- **juliet.py** script for automation
 
-**Build command**: `python3 juliet.py -a -g -m -k`
-- `-a`: Build all CWE categories
-- `-g`: Generate CMake files
-- `-m`: Compile with Make
-- `-k`: Continue on build failures
-
-**Expected results**: ~91 CWE categories successfully built out of 118 total
+Use `python3 scripts/rebuild_juliet.py <CWE numbers> --jobs 2` or `--all`.
+The wrapper verifies the pinned source, configures CMake and compiles with bounded
+parallelism. It reports build failures with a nonzero exit status.
 
 ## 🚨 Troubleshooting
 
 ### Build Failures
-If some CWE categories fail to build:
-- This is normal - ~27 categories may fail due to platform-specific issues
-- The `-k` flag ensures the build continues despite failures
-- Focus on the successfully built categories for your research
+
+Check the compiler output. Some categories require platform-specific APIs or
+additional libraries; do not assume all categories build on every OS. Retry a
+specific category after resolving its dependencies. Existing build outputs are
+left in place for inspection.
 
 ### Missing Dependencies
 ```bash
